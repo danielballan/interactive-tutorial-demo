@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: executed-notebooks
-          path: build/juptyer_execute
+          path: build/jupyter_execute
 
   deploy:
     environment:
