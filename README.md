@@ -2,7 +2,26 @@
 
 A repository demonstrating one way to manage and distribute interactive tutorials
 
-## Demo
+
+## Overview
+
+- Each recipe has a directory, named like `docs/recipes/<recipe name>`.
+- Each directory contains Markdown and any supporting files: data files,
+  illustrations, solutions, supporting scripts....
+- The Markdown may be vanilla (CommonMark) Markdown or MyST Markdown.
+  It may have a header indicating that it contains code blocks that are
+  executable by a Jupyter kernel.
+- From these sources, a task-runner can build:
+  - HTML static site
+  - executed notebooks (for the subset of recipes that contain executable Markdown)
+- A GitHub Actions workflow publishes the HTML and the executed notebooks.
+
+## TO DO
+
+- Test notebook execution (of changed recipes only) in CI on PR.
+- Test notebook execution (of all recipes) in CI on a schedule.
+
+## Demo Links
 
 - **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static site published with GitHub Pages
 - **[Executed notebooks](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks)** --- published to the `notebooks` branch of this repo
