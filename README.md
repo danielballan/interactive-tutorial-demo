@@ -28,6 +28,8 @@ A repository demonstrating one way to manage and distribute interactive tutorial
 - Test notebook execution (of all recipes) in CI on a schedule.
 - Document workflow for local development.
 - Set up devcontainer.
+- Add example with interactive and static matplotlib figures.
+- Add example with additional dependencies.
 
 ## Goals
 
