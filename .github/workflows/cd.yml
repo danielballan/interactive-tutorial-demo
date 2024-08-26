@@ -54,6 +54,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy HTML to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Deploy executed notebooks to 'notebooks' branch of this repo
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: notebooks
+          FOLDER: build/jupyter_execute
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
