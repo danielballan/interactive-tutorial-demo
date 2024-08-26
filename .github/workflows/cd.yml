@@ -45,7 +45,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: executed-notebooks
-          path: build/jupyter_execute
+          path: build/jupyter_execute/recipes
 
   deploy-gh-pages:
     # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
