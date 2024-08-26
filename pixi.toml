@@ -7,6 +7,16 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+build = { cmd = [
+    "sphinx-build",
+    "docs",  # source directory
+    "build/html",  # target directory
+    "-n",  # warn about missing references
+    "-W",  # any warnings fail the build
+    "-T",  # show tracebacks
+    "--keep-going",  # do not stop on error
+] }
+clean = "rm -rf build/*"
 
 [dependencies]
 python = ">=3.12.5,<4"
