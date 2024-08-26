@@ -47,6 +47,12 @@ jobs:
         with:
           path: build/html
 
+      - name: Upload executed notebooks as GitHub artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: executed-notebooks
+          path: build/juptyer_execute
+
   deploy:
     environment:
       name: github-pages
@@ -58,10 +64,16 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
+      - name: Download executed notebooks from previous job
+        uses: actions/download-artifact@v4
+        with:
+          name: executed-notebooks
+          path: notebooks
+
       - name: Deploy executed notebooks to 'notebooks' branch of this repo
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
           BRANCH: notebooks
-          FOLDER: build/jupyter_execute
+          FOLDER: notebooks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
