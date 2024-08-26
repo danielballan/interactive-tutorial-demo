@@ -4,7 +4,8 @@ A repository demonstrating one way to manage and distribute interactive tutorial
 
 ## Demo
 
-- **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static HTML site
+- **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static site published with GitHub Pages
+- **[Executed notebooks](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks)** --- published to the `notebooks` branch of this repo
 
 ## Goals
 
