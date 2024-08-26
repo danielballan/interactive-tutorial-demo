@@ -1,5 +1,5 @@
 ---
-name: Publish HTML
+name: Publish
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
       - name: Build executed notebooks and HTML
         run: pixi run build
 
-      - name: Publish
+      - name: Publish HTML
         uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
