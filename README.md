@@ -6,6 +6,7 @@ A repository demonstrating one way to manage and distribute interactive tutorial
 
 - **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static site published with GitHub Pages
 - **[Executed notebooks](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks)** --- published to the `notebooks` branch of this repo
+- **[Binder](https://mybinder.org/v2/gh/danielballan/interactive-tutorial-demo/notebooks)**
 
 ## Goals
 
