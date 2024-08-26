@@ -2,6 +2,10 @@
 
 A repository demonstrating one way to manage and distribute interactive tutorials
 
+## Demo
+
+- **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static HTML site
+
 ## Goals
 
 - Source maintained in MyST Markdown, primarily because it:
@@ -20,7 +24,7 @@ Examples that this is drawing from:
 - https://github.com/bsipocz/irsa-tutorials
 - https://github.com/MotherDuck-Open-Source/sql-tutorial
 
-## Usage
+## Local Development
 
 ```
 pixi run build
