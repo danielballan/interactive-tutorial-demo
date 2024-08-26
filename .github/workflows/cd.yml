@@ -7,7 +7,14 @@ on:
       - main
   schedule:
     - cron: '0 5 * * 1'
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
