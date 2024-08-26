@@ -4,11 +4,11 @@ A repository demonstrating one way to manage and distribute interactive tutorial
 
 ## Goals
 
-- Source maintained in MyST Markdown
-  - Plays well with version control
+- Source maintained in MyST Markdown, primarily because it:
+  - Plays well with version control (unlike notebooks)
   - Supports cross-references (unlike plain Markdown)
-- Executed examples published as HTML on CI
-- Use can download source as Markdown, Jupyter notebooks, and plain `.py` scripts
+- Executed examples are published as HTML
+- Examples, converted to `.ipynb` format, are published for use with Binder and/or Jupyter Lite
 - Easy to test examples locally, outside of the documentation build process
 - Changed examples are run on CI on PR
 - All examples are run fresh on scheduled CI
