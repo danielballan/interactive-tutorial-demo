@@ -37,7 +37,8 @@ jobs:
 
       - name: Upload HTML as GitHub artifact
         uses: actions/upload-pages-artifact@v3
-        path: build/html
+        with:
+          path: build/html
 
   deploy:
     environment:
