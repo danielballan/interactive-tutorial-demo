@@ -26,7 +26,7 @@ jobs:
         uses: prefix-dev/setup-pixi@v0.8.1
 
       - name: Build executed notebooks and HTML
-        run: pixi build
+        run: pixi run build
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # v3.9.3
