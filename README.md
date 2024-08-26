@@ -2,6 +2,12 @@
 
 A repository demonstrating one way to manage and distribute interactive tutorials
 
+## Demo Links
+
+- **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static site published with GitHub Pages
+- **[Executed notebooks](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/notebooks)** --- published to the `notebooks` branch of this repo
+- **[Binder](https://mybinder.org/v2/gh/danielballan/interactive-tutorial-demo/notebooks)**
+
 
 ## Overview
 
@@ -16,16 +22,12 @@ A repository demonstrating one way to manage and distribute interactive tutorial
   - executed notebooks (for the subset of recipes that contain executable Markdown)
 - A GitHub Actions workflow publishes the HTML and the executed notebooks.
 
-## TO DO
+## To Do
 
 - Test notebook execution (of changed recipes only) in CI on PR.
 - Test notebook execution (of all recipes) in CI on a schedule.
-
-## Demo Links
-
-- **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static site published with GitHub Pages
-- **[Executed notebooks](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks)** --- published to the `notebooks` branch of this repo
-- **[Binder](https://mybinder.org/v2/gh/danielballan/interactive-tutorial-demo/notebooks)**
+- Document workflow for local development.
+- Set up devcontainer.
 
 ## Goals
 
