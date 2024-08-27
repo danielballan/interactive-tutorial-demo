@@ -38,7 +38,7 @@ docs/
 ```
 
 Some of these Markdown files include a header that describes how to convert
-them into Jupyter notebooks and execute the code blocks. This is described in
+them into Jupyter notebooks and execute the code in them. This is described in
 more detail below.
 
 ## Setup
@@ -123,7 +123,8 @@ pixi run ./test.sh docs/recipes/executable/basic.md
 `````{note}
 
 Sometimes examples are _expected_ to raise an exception. These can be marked up
-with a "tag" like so, and build and test process will pass over the exception.
+with a "tag" like so. With that tag, the build and test procedures will pass
+over the exception.
 
 ````markdown
 ```{code-cell} ipython3
