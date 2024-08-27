@@ -13,11 +13,47 @@ With SSH:
 git clone git@github.com:danielballan/interactive-tutorial-demo
 ```
 
+## Overview
+
+Each "recipe" is a directory under `docs/recipes/`. It may contain one or more
+Markdown (`.md`) files with a mixture of narrative text and code. Each recipe
+directory may also contain supporting data files, scripts, illustrations,
+solutions to exercises, etc.
+
+```none
+$ tree docs/
+docs/
+├── conf.py
+├── contributing.md
+├── index.md
+├── recipes
+│   ├── executable
+│   │   ├── basics.md
+│   ├── matplotlib
+│   │   ├── interactive_mpl.md
+│   │   └── static_mpl.md
+│   └── static
+│       └── static.md
+...
+```
+
+Some of these Markdown files include a header that describes how to convert
+them into Jupyter notebooks and execute the code blocks. This is described in
+more detail below.
+
+## Setup
+
 We use the [pixi](https://pixi.sh/latest/#installation) package manager to
 create an environment with dependencies from conda-forge and PyPI. We recommend
-installing pixi. But if you have a strong preference for a different package
-manager, peek inside `pixi.toml` to find the list of dependencies and install
-them however you wish.
+installing pixi. Then just:
+
+```sh
+pixi install
+```
+
+But if you have a strong preference for a different package manager, peek
+inside `pixi.toml` to find the list of dependencies and install them however
+you wish.
 
 ## Build
 
@@ -31,8 +67,8 @@ to start fresh.
 ```
 
 This creates:
-- Executed notebooks under `build/juptyer_execute/`
-- HTML under `build/html/`.
+- Executed notebooks, generated from eligible Markdown files, under `build/juptyer_execute/`
+- HTML under `build/html/`
 
 Open `build/html/index.html` in a web browser.
 
@@ -46,7 +82,7 @@ In the file browser, locate one of the examples under `docs/recipes/`. Double
 click to open.
 
 Files like `docs/recipes/static/static.md` are plain Markdown files. Files like
-`docs/recipes/executable/basics.md` have a special header which enables the
+`docs/recipes/executable/basics.md` have a YAML header which enables the
 documentation build system to convert them to Jupyter notebooks and execute
 them:
 
