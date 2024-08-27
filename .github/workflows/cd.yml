@@ -81,11 +81,6 @@ jobs:
           name: executed-notebooks
           path: notebooks
 
-      - run: ls .
-      - run: ls ..
-      - run: tree .
-      - run: git remote -v
-
       - name: Publish executed notebooks to 'notebooks' branch of this repo
         run: |
           git checkout -B notebooks
