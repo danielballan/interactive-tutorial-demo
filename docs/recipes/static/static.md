@@ -1,7 +1,12 @@
-# Static Example
+# Static Code
 
-Lorem ipsum
+This is a vanilla (CommonMark) Markdown document with text and code cells.
+The code won't be executed; it is meant to be read or copy/pasted.
 
-```{code}
-1 + 1
+```python
+class Thing:
+    def __init__(self, stuff):
+        self.stuff = stuff
+
+thing = Thing(3)
 ```
