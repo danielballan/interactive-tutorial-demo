@@ -16,7 +16,7 @@ kernelspec:
 ## Basics
 
 ```{code-cell} ipython3
-1 + 1
+1 + 3
 ```
 
 ```{code-cell} ipython3
@@ -29,7 +29,12 @@ a
 
 This cell has an excepted error:
 
-```{code-cell} ipython
+```{code-cell} ipython3
 :tags: [raises-exception]
+
 1 / 0
+```
+
+```{code-cell} ipython3
+
 ```
