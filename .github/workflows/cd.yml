@@ -83,6 +83,7 @@ jobs:
 
       - name: Publish executed notebooks to 'notebooks' branch of this repo
         run: |
+          git fetch origin
           git checkout -B notebooks
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
