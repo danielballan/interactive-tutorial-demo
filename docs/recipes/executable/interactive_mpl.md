@@ -45,11 +45,11 @@ Plotting data to an existing figure updates the original interactive canvas in J
 
 To show an updated snapshot in the rendered HTML documentation, we should call `plt.gcf()` to display the current Figure.
 
-:::{caution}
+```{caution}
 If you re-render the canvas---such as by displaying `plt.gcf().canvas`---that will cause the cached snapshot of the figures above to update to show the latest version of the figure, ruining the sequential narrative in the rendered HTML documentation.
 
 This is due to a detail of the matplotlib--Jupyter interaction. Just know to use `plt.gcf()` to safely show snapshots.
-:::
+```
 
 ```{code-cell} ipython3
 plt.plot([1, 2, 3, 4])
