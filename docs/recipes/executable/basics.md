@@ -34,7 +34,3 @@ This cell has an excepted error:
 
 1 / 0
 ```
-
-```{code-cell} ipython3
-
-```
