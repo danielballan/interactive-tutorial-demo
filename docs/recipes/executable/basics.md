@@ -26,3 +26,10 @@ a = 8**2
 ```{code-cell} ipython3
 a
 ```
+
+This cell has an excepted error:
+
+```{code-cell} ipython
+:tags: [raises-exception]
+1 / 0
+```
