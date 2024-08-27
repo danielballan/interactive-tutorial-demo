@@ -48,9 +48,3 @@ Examples that this is drawing from:
 
 - https://github.com/bsipocz/irsa-tutorials
 - https://github.com/MotherDuck-Open-Source/sql-tutorial
-
-## Local Development
-
-```
-pixi run build
-```
