@@ -110,3 +110,42 @@ Note that the cell _outputs_ are not saved to disk. This is a feature, not a
 bug. The inputs are stored a in version-control friendly textual format
 (Markdown). This is converted to Jupyter notebook format and executed during
 the build process.
+
+## Test locally
+
+The script `test.sh` runs files with executable code from top to bottom and
+prints any unexpected tracebacks.
+
+```
+pixi run ./test.sh docs/recipes/executable/basic.md
+```
+
+`````{note}
+
+Sometimes examples are _expected_ to raise an exception. These can be marked up
+with a "tag" like so, and build and test process will pass over the exception.
+
+````markdown
+```{code-cell} ipython3
+:tags: [raises-exception]
+1 / 0
+```
+````
+`````
+
+To test _all_ examples, run:
+
+```
+pixi run ./test.sh --all
+```
+
+(Above, the script automatically discovers all Markdown files which have that
+YAML header marking them as executable.)
+
+## Deploy
+
+Once changes are merged to the `main` branch, a GitHub Actions workflow will
+publish HTML to this site, and it will publish the executed notebooks
+to a [directory on the `notebooks` branch of this repository][notebooks-branch].
+
+[notebooks-branch]: https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/notebooks
