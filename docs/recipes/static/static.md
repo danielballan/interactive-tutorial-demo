@@ -10,3 +10,7 @@ class Thing:
 
 thing = Thing(3)
 ```
+
+Here is an image that is bundled with the recipe.
+
+![Aerial photo on NSLS-II at Brookhaven National Laboratory](./nsls2-aerial.jpg)
