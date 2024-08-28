@@ -1,6 +1,8 @@
 # Interactive Tutorial Demo
 
-A repository demonstrating one way to manage and distribute interactive tutorials
+A repository demonstrating one way to manage and distribute interactive tutorials.
+See the [Guide to Contributing](https://danielballan.github.io/interactive-tutorial-demo/contributing.html)
+for a good overview of what this is like to use.
 
 ## Demo Links
 

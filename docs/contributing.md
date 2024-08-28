@@ -1,4 +1,4 @@
-# Contributing
+# Guide to Contributing
 
 First, clone this repository.
 
