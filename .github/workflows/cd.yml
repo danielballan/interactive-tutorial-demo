@@ -44,7 +44,6 @@ jobs:
 
       - name: Build Jupyter Lite
         run: pixi run -e jupyterlite jupyter lite build \
-          --XeusAddon.environment_file=jupyterlite_environment.yml \
           --contents docs/recipes \
           --output-dir build/html/jupyterlite
 
