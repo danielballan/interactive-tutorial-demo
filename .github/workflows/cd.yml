@@ -36,10 +36,6 @@ jobs:
       - name: Build executed notebooks and HTML
         run: pixi run build
 
-      - run: ls build/
-      - run: ls build/jupyter_execute/
-      - run: ls build/jupyter_execute/recipes
-
       - name: Upload executed notebooks as GitHub artifact
         uses: actions/upload-artifact@v4
         with:
