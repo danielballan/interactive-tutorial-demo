@@ -41,6 +41,7 @@ jobs:
         with:
           name: executed-notebooks
           path: build/jupyter_execute/recipes
+          if-no-files-found: error
 
       - name: Prepare for Jupyter Lite
         run: |
