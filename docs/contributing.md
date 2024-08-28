@@ -159,5 +159,5 @@ Once changes are merged to the `main` branch, the GitHub Actions [Publish workfl
   where users need to be handed Jupyter Notebook files directly, such as Google
   Colab.
 
-[notebooks-branch]: https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/notebooks
+[notebooks-branch]: https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/docs/recipes
 [Publish workflow]: https://github.com/danielballan/interactive-tutorial-demo/actions/workflows/cd.yml
