@@ -111,7 +111,7 @@ bug. The inputs are stored a in version-control friendly textual format
 (Markdown). This is converted to Jupyter notebook format and executed during
 the build process.
 
-## Test locally
+## Test
 
 The script `test.sh` runs files with executable code from top to bottom and
 prints any unexpected tracebacks.
