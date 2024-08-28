@@ -36,6 +36,12 @@ jobs:
       - name: Build executed notebooks and HTML
         run: pixi run build
 
+      - name: Upload executed notebooks as GitHub artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: executed-notebooks
+          path: build/jupyter_execute/recipes
+
       - name: Prepare for Jupyter Lite
         run: |
           cp README.md docs/recipes/
@@ -51,12 +57,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: build/html
-
-      - name: Upload executed notebooks as GitHub artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: executed-notebooks
-          path: build/jupyter_execute/recipes
 
   deploy-gh-pages:
     name: Deploy HTML to GitHub Pages
