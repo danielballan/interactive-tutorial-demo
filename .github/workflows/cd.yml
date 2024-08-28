@@ -53,9 +53,7 @@ jobs:
           pixi run ./convert_all.sh ipynb
 
       - name: Build Jupyter Lite
-        run: pixi run -e jupyterlite jupyter lite build \
-          --contents docs/recipes \
-          --output-dir build/html/jupyterlite
+        run: pixi run -e jupyterlite jupyter lite build --contents docs/recipes --output-dir build/html/jupyterlite
 
       - name: Upload HTML as GitHub artifact
         uses: actions/upload-pages-artifact@v3
