@@ -4,43 +4,26 @@ A repository demonstrating one way to manage and distribute interactive tutorial
 
 ## Demo Links
 
-- **[Published web pages](https://danielballan.github.io/interactive-tutorial-demo/)** --- a static site published with GitHub Pages
-- **[Executed notebooks](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/notebooks)** --- published to the `notebooks` branch of this repo
-- **[Binder](https://mybinder.org/v2/gh/danielballan/interactive-tutorial-demo/notebooks)**
+- **[Tutorials (a.k.a. recipes)](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/docs/recipes)** are written in MyST Markdown.
+- They are published in **[Jupyter notebook](https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/docs/recipes)** format, on the `notebooks` branch of this repo, which can be used in Colab, Binder, etc.
+- Executed examples are **[published](https://danielballan.github.io/interactive-tutorial-demo/)** on a GitHub Pages site.
+- **[Binder](https://mybinder.org/v2/gh/danielballan/interactive-tutorial-demo/notebooks)**.
 
-
-## Overview
-
-- Each recipe has a directory, named like `docs/recipes/<recipe name>`.
-- Each directory contains Markdown and any supporting files: data files,
-  illustrations, solutions, supporting scripts....
-- The Markdown may be vanilla (CommonMark) Markdown or MyST Markdown.
-  It may have a header indicating that it contains code blocks that are
-  executable by a Jupyter kernel.
-- From these sources, a task-runner can build:
-  - HTML static site
-  - executed notebooks (for the subset of recipes that contain executable Markdown)
-- A GitHub Actions workflow publishes the HTML and the executed notebooks.
-
-## To Do
-
-- Test notebook execution (of changed recipes only) in CI on PR.
-- Test notebook execution (of all recipes) in CI on a schedule.
-- Document workflow for local development.
-- Set up devcontainer.
-- Add example with interactive and static matplotlib figures.
-- Add example with additional dependencies.
 
 ## Goals
 
-- Source maintained in MyST Markdown, primarily because it:
-  - Plays well with version control (unlike notebooks)
-  - Supports cross-references (unlike plain Markdown)
-- Executed examples are published as HTML
-- Examples, converted to `.ipynb` format, are published for use with Binder and/or Jupyter Lite
-- Easy to test examples locally, outside of the documentation build process
-- Changed examples are run on CI on PR
-- All examples are run fresh on scheduled CI
+- Make content easy to explore and try in a variety of modes:
+  - interactive and non-interactive
+  - local and cloud-based
+  - Jupyter and not-Jupyter
+- Document an accessible development workflow, so that non-experts can contribute.
+- Keep the infrastructure as simple as possible.
+
+## To Do
+
+- Test notebook execution _of changed recipes only_ in CI on PR.
+- Set up devcontainer.
+- Add example with additional dependencies.
 
 ## Prior Art
 

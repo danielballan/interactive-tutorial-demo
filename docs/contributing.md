@@ -101,15 +101,18 @@ kernelspec:
 ---
 ```
 
-Jupyter Lab can open these files _as notebooks_ enabling you the interactively
-edit and execute them, saving the changes to Markdown.
+One option is to simply edit these files in any text editor.
+
+Another is to use Jupyter Lab, which can open these files _as notebooks_
+enabling you the interactively edit and execute them, saving the changes to
+Markdown.
 
 ![Context Menu: Open With... Jupytext Notebook](./_static/images/open-with-jupytext-notebook.png)
 
 Note that the cell _outputs_ are not saved to disk. This is a feature, not a
-bug. The inputs are stored a in version-control friendly textual format
-(Markdown). This is converted to Jupyter notebook format and executed during
-the build process.
+bug: the outputs are build products, and they do not belong in version control.
+During the build process, the Markdown document is converted to a Jupyter
+notebook format and executed.
 
 ## Test
 
@@ -146,8 +149,15 @@ YAML header marking them as executable.)
 
 ## Deploy
 
-Once changes are merged to the `main` branch, a GitHub Actions workflow will
-publish HTML to this site, and it will publish the executed notebooks
-to a [directory on the `notebooks` branch of this repository][notebooks-branch].
+Once changes are merged to the `main` branch, the GitHub Actions [Publish workflow][] will:
+- Publish HTML to this site.
+- Uploaded the executed ipynb notebooks as a GitHub Artifact (useful for debugging)
+  as an Artifact associated with the workflow run.
+- Push to [the `notebooks` branch of this repository][notebooks-branch] a version
+  where all Markdown Jupytext files have been converted to `.ipynb` format, using
+  `pixi run ./convert-all ipynb`. This is suitable for use in environments
+  where users need to be handed Jupyter Notebook files directly, such as Google
+  Colab.
 
 [notebooks-branch]: https://github.com/danielballan/interactive-tutorial-demo/tree/notebooks/notebooks
+[Publish workflow]: https://github.com/danielballan/interactive-tutorial-demo/actions/workflows/cd.yml

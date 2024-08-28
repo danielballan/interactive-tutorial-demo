@@ -66,7 +66,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
   deploy-notebooks:
-    name: Deploy executed Jupyter Notebooks
+    name: Push to 'notebooks' branch ipynb-formatted version
     # Sets permissions of the GITHUB_TOKEN to allow pushing to 'notebooks' branch
     permissions:
       contents: write
@@ -77,18 +77,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download executed notebooks from 'build' job
-        uses: actions/download-artifact@v4
-        with:
-          name: executed-notebooks
-          path: notebooks
+      - name: Setup pixi
+        uses: prefix-dev/setup-pixi@v0.8.1
 
-      - name: Publish executed notebooks to 'notebooks' branch of this repo
+      - name: Publish ipynb-formatted variant to 'notebooks' branch of this repo
         run: |
           git fetch origin
           git checkout -B notebooks
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add notebooks
-          git commit -m "Add notebooks/ directory with executed notebooks"
+          pixi run ./convert-all ipynb
+          git commit -am "Convert jupytext to ipynb format"
           git push origin notebooks --force-with-lease
