@@ -39,6 +39,8 @@ jobs:
       - name: Build Jupyter Lite
         run: |
           cp README.md docs/recipes/
+          # Convert Jupytext to ipynb format.
+          pixi run ./convert_all.sh ipynb
           pixi run -e jupyter-lite jupyter lite build --contents docs/recipes --output-dir build/html/jupyter-lite
 
       - name: Upload HTML as GitHub artifact
