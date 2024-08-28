@@ -34,11 +34,11 @@ sphinx-copybutton = ">=0.5.2, <0.6"
 jupyterlab = ">=4.2.5, <5"
 
 
-[feature.jupyter-lite.dependencies]
+[feature.jupyterlite.dependencies]
 jupyterlab = "~=4.2.4"
 jupyterlite-core = "==0.4.0"
-jupyterlite-pyodide-kernel = "==0.4.1"
+jupyterlite-xeus = ">=0.1.2, <0.2"
 notebook = "~=7.2.1"
 
 [environments]
-jupyter-lite = ["jupyter-lite"]
+jupyterlite = ["jupyterlite"]
