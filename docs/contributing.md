@@ -120,7 +120,7 @@ The script `test.sh` runs files with executable code from top to bottom and
 prints any unexpected tracebacks.
 
 ```
-pixi run ./test.sh docs/recipes/executable/basic.md
+pixi run ./test.sh docs/recipes/executable/basics.md
 ```
 
 `````{note}
