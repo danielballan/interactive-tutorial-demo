@@ -26,7 +26,7 @@ Creating a new figure display an interactive canvas in Jupyter Lab.
 If we do nothing else, this will display a snapshot of the currently-blank canvas in the rendered HTML documentation. To avoid that, we edit the Markdown file so that the cell below has the tag `hide-output`. This places the figure in an expandable box, hidden by fault. Alternatively, we could use `remove-output` to fully remove it.
 
 ````markdown
-```{code-cell} ipython3
+```python
 :tags: [hide-output]
 import matplotlib.pyplot as plt
 

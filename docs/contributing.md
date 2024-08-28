@@ -127,7 +127,7 @@ with a "tag" like so. With that tag, the build and test procedures will pass
 over the exception.
 
 ````markdown
-```{code-cell} ipython3
+```python
 :tags: [raises-exception]
 
 1 / 0
