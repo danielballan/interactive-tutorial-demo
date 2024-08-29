@@ -1,0 +1,30 @@
+{
+  "build": "h69a702a_0",
+  "build_number": 0,
+  "depends": [
+    "libgfortran5 14.1.0 hc5f4f2c_0"
+  ],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "md5": "f4ca84fbd6d06b0a052fb2d5b96dde41",
+  "name": "libgfortran-ng",
+  "purls": [],
+  "sha256": "ef624dacacf97b2b0af39110b36e2fd3e39e358a1a6b7b21b85c9ac22d8ffed9",
+  "size": 49893,
+  "subdir": "linux-64",
+  "timestamp": 1719538933879,
+  "version": "14.1.0",
+  "fn": "libgfortran-ng-14.1.0-h69a702a_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-14.1.0-h69a702a_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/home/runner/.cache/rattler/cache/pkgs/libgfortran-ng-14.1.0-h69a702a_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/runner/.cache/rattler/cache/pkgs/libgfortran-ng-14.1.0-h69a702a_0",
+    "type": 1
+  }
+}

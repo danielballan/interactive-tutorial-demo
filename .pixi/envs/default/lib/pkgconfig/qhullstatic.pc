@@ -1,0 +1,10 @@
+prefix=/home/runner/work/interactive-tutorial-demo/interactive-tutorial-demo/.pixi/envs/default
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhullstatic
+Description: Qhull static library
+Version: 8.0.2
+Libs: -L${libdir} -lqhullstatic
+Cflags: -I${includedir}
+

@@ -1,0 +1,67 @@
+{
+  "build": "hd590300_1",
+  "build_number": 1,
+  "depends": [
+    "libbrotlicommon 1.1.0 hd590300_1",
+    "libgcc-ng >=12"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "f07002e225d7a60a694d42a7bf5ff53f",
+  "name": "libbrotlidec",
+  "purls": [],
+  "sha256": "86fc861246fbe5ad85c1b6b3882aaffc89590a48b42d794d3d5c8e6d99e5f926",
+  "size": 32775,
+  "subdir": "linux-64",
+  "timestamp": 1695990022788,
+  "version": "1.1.0",
+  "fn": "libbrotlidec-1.1.0-hd590300_1.conda",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libbrotlidec-1.1.0-hd590300_1.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/home/runner/.cache/rattler/cache/pkgs/libbrotlidec-1.1.0-hd590300_1",
+  "files": [
+    "lib/libbrotlidec.so",
+    "lib/libbrotlidec.so.1",
+    "lib/libbrotlidec.so.1.1.0",
+    "lib/pkgconfig/libbrotlidec.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlidec.so",
+        "path_type": "softlink",
+        "sha256": "3e1ebf58ae1c9e0b71fac2acf44f216754fb11f414671d26b22cf7c210c36c7c",
+        "sha256_in_prefix": "c9ac413eaa3759f86f5c9e0bce24656193a296bcc7222a3ef12605817c0700ba",
+        "size_in_bytes": 55664
+      },
+      {
+        "_path": "lib/libbrotlidec.so.1",
+        "path_type": "softlink",
+        "sha256": "3e1ebf58ae1c9e0b71fac2acf44f216754fb11f414671d26b22cf7c210c36c7c",
+        "sha256_in_prefix": "c9ac413eaa3759f86f5c9e0bce24656193a296bcc7222a3ef12605817c0700ba",
+        "size_in_bytes": 55664
+      },
+      {
+        "_path": "lib/libbrotlidec.so.1.1.0",
+        "path_type": "hardlink",
+        "sha256": "3e1ebf58ae1c9e0b71fac2acf44f216754fb11f414671d26b22cf7c210c36c7c",
+        "sha256_in_prefix": "3e1ebf58ae1c9e0b71fac2acf44f216754fb11f414671d26b22cf7c210c36c7c",
+        "size_in_bytes": 55664
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlidec.pc",
+        "path_type": "hardlink",
+        "sha256": "bafd40724ffc80c556bf89517d25524caca8be8cf8c61e29cd0ae9dbdf53076e",
+        "sha256_in_prefix": "571bccf7742b5f8124d02bd004c50f880fdd0a3f68fdcc41278efca4290b1888",
+        "size_in_bytes": 453,
+        "file_mode": "text",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/brotli-split_1695989787169/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/runner/.cache/rattler/cache/pkgs/libbrotlidec-1.1.0-hd590300_1",
+    "type": 1
+  }
+}

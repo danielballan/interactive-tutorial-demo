@@ -1,0 +1,66 @@
+{
+  "build": "hd590300_1",
+  "build_number": 1,
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "aec6c91c7371c26392a06708a73c70e5",
+  "name": "libbrotlicommon",
+  "purls": [],
+  "sha256": "40f29d1fab92c847b083739af86ad2f36d8154008cf99b64194e4705a1725d78",
+  "size": 69403,
+  "subdir": "linux-64",
+  "timestamp": 1695990007212,
+  "version": "1.1.0",
+  "fn": "libbrotlicommon-1.1.0-hd590300_1.conda",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libbrotlicommon-1.1.0-hd590300_1.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/home/runner/.cache/rattler/cache/pkgs/libbrotlicommon-1.1.0-hd590300_1",
+  "files": [
+    "lib/libbrotlicommon.so",
+    "lib/libbrotlicommon.so.1",
+    "lib/libbrotlicommon.so.1.1.0",
+    "lib/pkgconfig/libbrotlicommon.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libbrotlicommon.so",
+        "path_type": "softlink",
+        "sha256": "04dbe241d9a6d3de632788ccaebf29c7c160c5a27da94d3d57a115054bd70f30",
+        "sha256_in_prefix": "d8468950276a14f0a55f55f13412ede59ba563728eff453485896ca731dc2c6d",
+        "size_in_bytes": 143528
+      },
+      {
+        "_path": "lib/libbrotlicommon.so.1",
+        "path_type": "softlink",
+        "sha256": "04dbe241d9a6d3de632788ccaebf29c7c160c5a27da94d3d57a115054bd70f30",
+        "sha256_in_prefix": "d8468950276a14f0a55f55f13412ede59ba563728eff453485896ca731dc2c6d",
+        "size_in_bytes": 143528
+      },
+      {
+        "_path": "lib/libbrotlicommon.so.1.1.0",
+        "path_type": "hardlink",
+        "sha256": "04dbe241d9a6d3de632788ccaebf29c7c160c5a27da94d3d57a115054bd70f30",
+        "sha256_in_prefix": "04dbe241d9a6d3de632788ccaebf29c7c160c5a27da94d3d57a115054bd70f30",
+        "size_in_bytes": 143528
+      },
+      {
+        "_path": "lib/pkgconfig/libbrotlicommon.pc",
+        "path_type": "hardlink",
+        "sha256": "58cf13f88dedb390beab9b1588945fdfb8a89d3948361de3990e5a12132691fe",
+        "sha256_in_prefix": "9d1b84e3bea353911d03f619f691c6438fcae2d12d4803a8e9ae439008274b34",
+        "size_in_bytes": 426,
+        "file_mode": "text",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/brotli-split_1695989787169/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/runner/.cache/rattler/cache/pkgs/libbrotlicommon-1.1.0-hd590300_1",
+    "type": 1
+  }
+}

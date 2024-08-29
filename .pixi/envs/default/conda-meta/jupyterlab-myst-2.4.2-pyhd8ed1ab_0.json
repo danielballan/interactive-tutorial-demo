@@ -1,0 +1,2567 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "constrains": [
+    "jupyterlab >=4,<5"
+  ],
+  "depends": [
+    "jupyter_server >=2.0.1,<3",
+    "python >=3.8"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "cc481204ea9c53cda7ac187efa0268a1",
+  "name": "jupyterlab-myst",
+  "noarch": "python",
+  "purls": [
+    "pkg:pypi/jupyterlab-myst?source=hash-mapping"
+  ],
+  "sha256": "c8847c58de52c4daba94da9d2c6de067fee2a09aa1c3df2dd5a45360a0f4b533",
+  "size": 2127008,
+  "subdir": "noarch",
+  "timestamp": 1714146125212,
+  "version": "2.4.2",
+  "fn": "jupyterlab-myst-2.4.2-pyhd8ed1ab_0.conda",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/jupyterlab-myst-2.4.2-pyhd8ed1ab_0.conda",
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "extracted_package_dir": "/home/runner/.cache/rattler/cache/pkgs/jupyterlab-myst-2.4.2-pyhd8ed1ab_0",
+  "files": [
+    "etc/jupyter/jupyter_server_config.d/jupyterlab_myst.json",
+    "share/jupyter/labextensions/jupyterlab-myst/install.json",
+    "share/jupyter/labextensions/jupyterlab-myst/package.json",
+    "share/jupyter/labextensions/jupyterlab-myst/static/00b26ac825e209505639.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/036d4e95149b69ff9bcc.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/07d8e303ce4fc12b4bb5.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/08ce98e51b04d58945a3.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/0cdd387c9590a1a9f979.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/0d85ae7cc30f23790a7f.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/0f60d1b897938ec918c8.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/11e4dc8a6471ff6d6ee5.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/138ac28d1663b3037e9c.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1552.5d13101d63256e483289.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1640.5c7475d1b890d3ca68b0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1848.3eddef9915df9c8a9098.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1ae6bd7475590e97e7f1.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1c67f068fea8bb09bf09.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1e6f9579e90e2cac37f8.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/1ece03f79f95277d57dc.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2014c523c3210bcc1666.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2232.7ab03a3372c029869c79.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2340.0420004d6101c18a753b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2360.7e53ee18547df0f419f2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2592.7ec4dd4d016bc5765bfe.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2592.7ec4dd4d016bc5765bfe.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2636.3523b491e93e25b5b0b6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2636.3523b491e93e25b5b0b6.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/2952.252a3c9e2f5c00fefa7b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/30da91e84c893f875e25.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/3204.b50a372a7f97cd9897c8.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/3204.b50a372a7f97cd9897c8.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/3398dd02302557a793f2.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/3931dd81faed86ba021b.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/4192.44cd6f0f34eafd8859f7.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/4252.eede8a46ea3e963041a0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/4261.068863dd226d19229b83.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/4796.75902764fd38f94bced1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/4964.2227519e936ce54ad91c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/4964.2227519e936ce54ad91c.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/500e04d54f0d51666332.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5016.b316f1c514c38a1a5f84.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5016.b316f1c514c38a1a5f84.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5080.32d5b7990434b47d041b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5080.32d5b7990434b47d041b.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/51814d270d06ff0255db.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5260.d711d4a58f781a7a1910.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5260.d711d4a58f781a7a1910.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5312.4aa4c75fb2deee33c916.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5312.4aa4c75fb2deee33c916.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5332.c43d602d0418f2c9a17b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5d53e70ad607c2352162.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/5e28753be717dac97f55.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6028.002d4261d21cce2d33e9.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6028.002d4261d21cce2d33e9.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/628.7614ffc7bfe1a2c7b611.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/628.7614ffc7bfe1a2c7b611.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6376.4d4621588467e6fab876.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6376.4d4621588467e6fab876.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6572.06cee7ea6c50d2d46a01.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6579.09855688acec4d1cf0bf.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6838.32d887907642f7ebb662.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/68534840bcfdd2bffb6f.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/68e8c73ef42afd3ccec5.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6ab6b62e9b62dae2c00d.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/6b47c40166b6dbe21a5d.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/70ee1f64a20f2048c219.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/71d517d67827787cfabd.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/72.0b65da36d0ce8ad8a23d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/72.0b65da36d0ce8ad8a23d.js.LICENSE.txt",
+    "share/jupyter/labextensions/jupyterlab-myst/static/73d591271b1604960cb1.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/74444efd593c005e3f45.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/7448.965efa0f529a311396b6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/7928.1f8e0a1b0d1f8ff6f3ac.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/7af58c5ec8f132a2ddde.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/8112.061a70c487fd3ff0f527.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/8346.f221af613dc7b1bb8d85.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/844.f1833fd77fb91174858e.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/8504.a0e0e21b3b860140195c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/850c0af5c2238497feba.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/8736.4e88af4acba30e807f73.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/8a8d244581371912b8f3.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/9163df9c7122432e6495.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/9172.485af32aaa25df9bd9c1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/91ee67500cc0129aa0ac.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/95b6d2f1a50173bfedb8.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/97479ca6cce906abc961.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/99cd42a3c072d918f2f4.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/99f9c6750b489c9462bf.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/9be7ceb88004ab8ad124.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/a4af7d414440a1c17908.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/a6b2099fb555c60e3a0d.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/a6f7ec0d846ac7ad975a.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/c2342cd8b869e01752a9.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/c6368d87e8a1a3a5d337.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/c647367d1dd4e1624687.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/c76c5d696297d51b9cb1.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/c943cc986384f59e86be.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/d0332f52868370fd83ae.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/d04c54219f9eaec6d4d4.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/d96cdf2b3bdd4d64a8fd.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/dc47344dbb6cb5b655c8.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/de7701e42cf1f4cf0b76.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/e14fed02b1aba7ce9f5a.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/e99ae51144bf1232efcc.woff2",
+    "share/jupyter/labextensions/jupyterlab-myst/static/ece03cfd83e22c212cde.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/ed0b74372feefcbb9c06.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/f01f3e87d9c6a61c0c08.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/f1d6ef86f3b11a528bd5.woff",
+    "share/jupyter/labextensions/jupyterlab-myst/static/f36ea897e19f4a2e571d.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/f9377ab0271cda59af24.ttf",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter/lowlight-import.d65ac370c2373cd63559.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_abnf.4f2b5daebfea21593d84.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_accesslog.2beb5a0ad3414e421048.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_actionscript.214bd8345e452cfa16a9.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ada.49665a53913f86470b30.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_angelscript.671d4ba67c8f177dea07.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_apache.d61f1f0f7820f45d9fcd.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_applescript.da4da2469330f3d4010f.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_arcade.18a9df3e878eae7afc7c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_arduino.1dc51181f05e9a22788d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_armasm.2471a5146faf73887b92.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_asciidoc.bee39f0edb5b6c633645.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_aspectj.b8b660adcc82903712a2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_autohotkey.579caae2f6f71d2dae53.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_autoit.f4bb04501d87f46a065a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_avrasm.87ce2c1795962e8852f4.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_awk.dee2522c49e7ff83e5d2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_axapta.e054b6458371e494a81b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_bash.16efb34da0c9cd6e3f99.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_basic.f97c08cee1c1563816ce.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_bnf.87532c1b25261be1d327.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_brainfuck.208e9ebf185e38116588.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_c.f529b8014629b19bc9d5.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cLike.5447bb55d559a01f113d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cal.e73c6c5cd73dad04bf84.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_capnproto.98a3195912a8890aa799.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ceylon.2c176d712cf381189172.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_clean.02ec133011c0d37c715b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_clojure.a267f7d8af5c94ba53cf.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_clojureRepl.e57aea3b1024e105af41.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cmake.ed5ee8bebca15d19effa.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_coffeescript.8df0861ebe4c490da555.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_coq.6e0b7ad5c9942cea93c2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cos.3b1d859227ce8a707084.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cpp.095d849e3fd14d3547ef.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_crmsh.42aae89f3c4cb8b4691b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_crystal.b939be90d64c1418b046.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_csharp.6076ec339ce94f1a60e1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_csp.59c07510deb2c080ff8d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_css.442a595a79fe0523dc6c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_d.c9b56d82dcac3a267fc2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dart.2363fac0d1b948fc5676.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_delphi.775fe30f1fb9372db32d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_diff.9908c6e141afca717f3e.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_django.b75b7e3611d19e57f355.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dns.20158cf4bcec923b10ff.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dockerfile.8196874d3b9bc32d334c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dos.fd1be4b257d5ccae54fc.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dsconfig.104aa0031124ead54547.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dts.4021fa1c250e45d85ab1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dust.f0a4468e7bee5227da40.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ebnf.399f9b4591dc83ae3b98.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_elixir.ca67e63cc6045d5e7f91.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_elm.e5b1be64dae2ab85fa2b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_erb.620801854e72baf3f233.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_erlang.8ff49381785b3ef40201.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_erlangRepl.18cab508d07fe32a9d30.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_excel.af799eac3f995cc11628.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_fix.6221fd0669960f6cf3fc.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_flix.ecc288d0fd35ad004963.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_fortran.5c8c60cd9bfdc0f16235.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_fsharp.1c7e3e36fc7b7b3e0a66.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gams.0bc441cdc55088e83213.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gauss.139d186be344c180517b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gcode.6d9479c5c0e2cbb240a1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gherkin.8729fe25611f80727a22.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_glsl.7ca10b35feba10189a80.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gml.65d8f9c1f928ce0de0c6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_go.35c0817d9e7e4d775120.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_golo.46fe4a06cc4951bc6e4d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gradle.70696147ab1b5ebb1e3a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_groovy.43aba474673f37078de2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_haml.b1e7a59e21aaf0a92d6b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_handlebars.e3995df45316cff049ac.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_haskell.469e35262dd5abb94cc0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_haxe.4f3b9a2b96ad0f8da90e.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_hsp.5f662cf13458158f96d8.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_htmlbars.723daa53be43c22e6be7.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_http.b87b0ae6a5f4ed95f016.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_hy.86f934f9bfbc65e90aa7.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_inform7.8c22795bad20f56ba1f5.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ini.97af616f6123f27a21eb.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_irpf90.e6b56d202707b1b81581.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_isbl.9b1d71b4b8a05100e6e5.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_java.906237646724e30629d8.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_javascript.e9874421a9bb1679e5fd.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_jbossCli.e9c0209e3810031891c5.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_json.46e0dad48fe7c6a86034.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_julia.847f533ddb54f1aa3ec3.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_juliaRepl.9cbfd8bfb1153fc14cce.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_kotlin.944928818b4720f62e93.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lasso.cf24a92577415fcde4d9.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_latex.7ecb6b0511a34dd243df.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ldif.24a4d60d5c7921abb43c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_leaf.66c4242b3782d2f99dbc.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_less.bcbb570ad1cc1a57d1df.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lisp.2844a101d9722d406865.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_livecodeserver.0909e22c40779c4dd274.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_livescript.a66919437220392d5dc5.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_llvm.0ff1e1a34d0130a22750.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lsl.f3be99d4458daae42544.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lua.57756cf1a7e57ede21e8.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_makefile.b7ad7036b033d3e5d790.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_markdown.227e8610386e41da7833.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mathematica.730d903f7d60645cc1fc.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_matlab.6f3e343d90f3509a8e5d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_maxima.a4895c58a3f94c76611f.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mel.ed34399e552276132a53.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mercury.8553718d854e25446797.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mipsasm.30c1dcb6d8bc080fb807.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mizar.7418c602ee73a1ce7ef9.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mojolicious.88a069bf479ca183a5f8.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_monkey.13e0c36be0268743ece5.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_moonscript.7a32fdad8ff8a0179882.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_n1ql.e8e6a6b854ad7ccce8a3.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nginx.64202454269a59ab0768.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nim.afbc3024a9402ee862cb.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nix.e6758393526aa1fa65ff.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nodeRepl.950164e10774a4383529.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nsis.3ffd1d0260582bcf8d69.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_objectivec.1bb2c9ac3eec723c703f.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ocaml.3af24198e923ea284347.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_oneC.421ca90d9f921be16606.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_openscad.7f85ec0dec93fa681707.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_oxygene.d59686c79e170916a2e0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_parser3.e5ef5bf469f9e2114c80.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_perl.6af8b222a239b447e8b0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pf.9873a227b9f9b0eb69e4.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pgsql.c5545530bdb1e4ee281e.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_php.9c5890630fd2228be4cf.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_phpTemplate.0fe6908ce9b52579d43a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_plaintext.214dda3b73ebab6810cd.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pony.d98852d4a6d0dbbdce3a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_powershell.c76802f90173b9a57b2a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_processing.64a3407806e1160c3900.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_profile.b03550be1dd80c155795.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_prolog.f6baebdc60c4efb75bc6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_properties.758dd8a4c90054169b00.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_protobuf.2b796344a3f6dfddb05b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_puppet.276f5d23ee79e1b9eb1d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_purebasic.9ae41013e43342a1ace6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_python.398414f40b936f194b03.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pythonRepl.cf14677ae83f4aabef1d.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_q.eea8298f8d0708678dd8.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_qml.1e2f9d42469c62bec2e1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_r.f5eacb745071c1bcb4a4.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_reasonml.2b253817f1b54d65ab2a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_rib.da859d2a303567aa7097.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_roboconf.4df8dceacf2f5c376b7b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_routeros.d9726608684318d383b6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_rsl.36850d002ba1a785343c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ruby.e84e3fef0a8726a40e1f.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ruleslanguage.34eb3d1cfb5ae7caafab.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_rust.549bd3bf16247d0c37f6.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sas.381f32b6e49a9384bf83.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scala.714be87da4b738cf46ee.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scheme.9283f78ae5f6b846af0c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scilab.4ca62ad3b9c5a02e903a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scss.8010996cc248e413d31a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_shell.acc48390f58cd25069ec.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_smali.72663c30978046986f88.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_smalltalk.c6849e9c3b083d99b9cd.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sml.2c1c83128ee70491c17a.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sqf.8ce909e0cebe516d8441.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sql.b25ee9e856bc5bd44133.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sqlMore.0347eb7b0ccced36c641.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_stan.47ee467814a7b68929b2.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_stata.7c75244f6225ffbc2001.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_step21.129f4437a51abd9b409c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_stylus.e7e1aaa3c81d240b9ceb.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_subunit.42bf80a7347a922fdcd4.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_swift.706813efbb244ef47358.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_taggerscript.67bf9e5362c2f7e4de73.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_tap.1cbac08112e220653246.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_tcl.55b087841afa519660fc.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_thrift.21bd2b4f7193f000ebfc.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_tp.6333561715250dd896ea.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_twig.e47feba2152af16dd9db.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_typescript.247133312561d0079e11.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vala.923310041621218f4041.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vbnet.59e8bddbb74860d2b980.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vbscript.036da60f5c8aac09cb93.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vbscriptHtml.727187daa8c9a00917e0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_verilog.ae6c2755be121b8df214.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vhdl.2a1a38e48cc12410dd17.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vim.5701c37f1a572cf3c0af.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_x86asm.8cbf14c7f6f9a60b82d1.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_xl.30fd857ca961ea9e3da9.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_xml.43bf0ad766ebbab9e9c3.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_xquery.92312538ab4d1c10d0e0.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_yaml.1189f493543ad51b5f7b.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_zephir.a92c45a2237c4c0feb0f.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/remoteEntry.37de765466b6d480035c.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/style.js",
+    "share/jupyter/labextensions/jupyterlab-myst/static/third-party-licenses.json",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/METADATA",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/RECORD",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/licenses/LICENSE",
+    "lib/python3.12/site-packages/jupyterlab_myst/__init__.py",
+    "lib/python3.12/site-packages/jupyterlab_myst/_version.py",
+    "lib/python3.12/site-packages/jupyterlab_myst/notary.py",
+    "lib/python3.12/site-packages/jupyterlab_myst/tests/__init__.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "etc/jupyter/jupyter_server_config.d/jupyterlab_myst.json",
+        "path_type": "hardlink",
+        "sha256": "93e65628a3e91486ce721e50c1354a2358160046456f5f97a63037106fb2a1bd",
+        "sha256_in_prefix": "93e65628a3e91486ce721e50c1354a2358160046456f5f97a63037106fb2a1bd",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/install.json",
+        "path_type": "hardlink",
+        "sha256": "a78bb12706eb82e0927d96afc1af9527564d5dd71958e120825a9ae6ff4dc135",
+        "sha256_in_prefix": "a78bb12706eb82e0927d96afc1af9527564d5dd71958e120825a9ae6ff4dc135",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/package.json",
+        "path_type": "hardlink",
+        "sha256": "3e973c8a89cfa11ff5cfea24b31e2cec918116bd8b9461814a653844b1a4c910",
+        "sha256_in_prefix": "3e973c8a89cfa11ff5cfea24b31e2cec918116bd8b9461814a653844b1a4c910",
+        "size_in_bytes": 7017
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/00b26ac825e209505639.woff2",
+        "path_type": "hardlink",
+        "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a",
+        "sha256_in_prefix": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a",
+        "size_in_bytes": 12028
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/036d4e95149b69ff9bcc.woff2",
+        "path_type": "hardlink",
+        "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b",
+        "sha256_in_prefix": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b",
+        "size_in_bytes": 9644
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/07d8e303ce4fc12b4bb5.ttf",
+        "path_type": "hardlink",
+        "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268",
+        "sha256_in_prefix": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268",
+        "size_in_bytes": 12368
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/08ce98e51b04d58945a3.ttf",
+        "path_type": "hardlink",
+        "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a",
+        "sha256_in_prefix": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a",
+        "size_in_bytes": 31308
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/0cdd387c9590a1a9f979.woff2",
+        "path_type": "hardlink",
+        "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308",
+        "sha256_in_prefix": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308",
+        "size_in_bytes": 28076
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/0d85ae7cc30f23790a7f.ttf",
+        "path_type": "hardlink",
+        "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a",
+        "sha256_in_prefix": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a",
+        "size_in_bytes": 33580
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/0f60d1b897938ec918c8.woff2",
+        "path_type": "hardlink",
+        "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021",
+        "sha256_in_prefix": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021",
+        "size_in_bytes": 25324
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/11e4dc8a6471ff6d6ee5.woff",
+        "path_type": "hardlink",
+        "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605",
+        "sha256_in_prefix": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605",
+        "size_in_bytes": 12316
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/138ac28d1663b3037e9c.ttf",
+        "path_type": "hardlink",
+        "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8",
+        "sha256_in_prefix": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8",
+        "size_in_bytes": 51336
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1552.5d13101d63256e483289.js",
+        "path_type": "hardlink",
+        "sha256": "5d13101d63256e483289078bca8d2ce6b2ccded2059f58385098320e7b893b60",
+        "sha256_in_prefix": "5d13101d63256e483289078bca8d2ce6b2ccded2059f58385098320e7b893b60",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1640.5c7475d1b890d3ca68b0.js",
+        "path_type": "hardlink",
+        "sha256": "5c7475d1b890d3ca68b0efdd1a7b24d4a4de9e65447ebc5ffcc455f0c2db5ed7",
+        "sha256_in_prefix": "5c7475d1b890d3ca68b0efdd1a7b24d4a4de9e65447ebc5ffcc455f0c2db5ed7",
+        "size_in_bytes": 260580
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1848.3eddef9915df9c8a9098.js",
+        "path_type": "hardlink",
+        "sha256": "3eddef9915df9c8a90988be56121dd9099fd1b133fe2b03f73e9301f67d85305",
+        "sha256_in_prefix": "3eddef9915df9c8a90988be56121dd9099fd1b133fe2b03f73e9301f67d85305",
+        "size_in_bytes": 1402379
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1ae6bd7475590e97e7f1.woff",
+        "path_type": "hardlink",
+        "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed",
+        "sha256_in_prefix": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed",
+        "size_in_bytes": 7716
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1c67f068fea8bb09bf09.ttf",
+        "path_type": "hardlink",
+        "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67",
+        "sha256_in_prefix": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67",
+        "size_in_bytes": 16648
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1e6f9579e90e2cac37f8.ttf",
+        "path_type": "hardlink",
+        "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3",
+        "sha256_in_prefix": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3",
+        "size_in_bytes": 19572
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/1ece03f79f95277d57dc.ttf",
+        "path_type": "hardlink",
+        "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0",
+        "sha256_in_prefix": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0",
+        "size_in_bytes": 24504
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2014c523c3210bcc1666.woff",
+        "path_type": "hardlink",
+        "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d",
+        "sha256_in_prefix": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d",
+        "size_in_bytes": 6188
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2232.7ab03a3372c029869c79.js",
+        "path_type": "hardlink",
+        "sha256": "7ab03a3372c029869c79883957c45b888202a649f649d9065d429edf62de314f",
+        "sha256_in_prefix": "7ab03a3372c029869c79883957c45b888202a649f649d9065d429edf62de314f",
+        "size_in_bytes": 11775
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2340.0420004d6101c18a753b.js",
+        "path_type": "hardlink",
+        "sha256": "0420004d6101c18a753b48380b74fd5f342d4adb4983ebb7577b05672e4628e3",
+        "sha256_in_prefix": "0420004d6101c18a753b48380b74fd5f342d4adb4983ebb7577b05672e4628e3",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2360.7e53ee18547df0f419f2.js",
+        "path_type": "hardlink",
+        "sha256": "7e53ee18547df0f419f2a1980f23fd4cdaaddd61d94a1b14a1f896a305e62b85",
+        "sha256_in_prefix": "7e53ee18547df0f419f2a1980f23fd4cdaaddd61d94a1b14a1f896a305e62b85",
+        "size_in_bytes": 1853
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2592.7ec4dd4d016bc5765bfe.js",
+        "path_type": "hardlink",
+        "sha256": "3132e32d3adaeaa5d7bede7c3aa6e1af0bf15b7a2f173a6660ce63e79cbb76aa",
+        "sha256_in_prefix": "3132e32d3adaeaa5d7bede7c3aa6e1af0bf15b7a2f173a6660ce63e79cbb76aa",
+        "size_in_bytes": 461734
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2592.7ec4dd4d016bc5765bfe.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "441367b832a14507dcbd6c6fc2cb91667f25d0d4079236c830f15878a31c9a85",
+        "sha256_in_prefix": "441367b832a14507dcbd6c6fc2cb91667f25d0d4079236c830f15878a31c9a85",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2636.3523b491e93e25b5b0b6.js",
+        "path_type": "hardlink",
+        "sha256": "c0f4ae71751be678892aa3622e4e480c72f27386abe006a30420e7ac190b6c98",
+        "sha256_in_prefix": "c0f4ae71751be678892aa3622e4e480c72f27386abe006a30420e7ac190b6c98",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2636.3523b491e93e25b5b0b6.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "sha256_in_prefix": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/2952.252a3c9e2f5c00fefa7b.js",
+        "path_type": "hardlink",
+        "sha256": "252a3c9e2f5c00fefa7b29d29f5ac13c25a35ca016d42a906f61b5d06b7cec1f",
+        "sha256_in_prefix": "252a3c9e2f5c00fefa7b29d29f5ac13c25a35ca016d42a906f61b5d06b7cec1f",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/30da91e84c893f875e25.woff",
+        "path_type": "hardlink",
+        "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251",
+        "sha256_in_prefix": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251",
+        "size_in_bytes": 33516
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/3204.b50a372a7f97cd9897c8.js",
+        "path_type": "hardlink",
+        "sha256": "2c1b22c14d7e528050f148b449c811cf0baa92eab87c2b6e4870dabcd8e38cab",
+        "sha256_in_prefix": "2c1b22c14d7e528050f148b449c811cf0baa92eab87c2b6e4870dabcd8e38cab",
+        "size_in_bytes": 306711
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/3204.b50a372a7f97cd9897c8.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cf023b5feb2e1cbe7dd9bab6ebf97a20a0b5b851608a11230665ee225d586798",
+        "sha256_in_prefix": "cf023b5feb2e1cbe7dd9bab6ebf97a20a0b5b851608a11230665ee225d586798",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/3398dd02302557a793f2.woff",
+        "path_type": "hardlink",
+        "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c",
+        "sha256_in_prefix": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c",
+        "size_in_bytes": 7656
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/3931dd81faed86ba021b.ttf",
+        "path_type": "hardlink",
+        "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083",
+        "sha256_in_prefix": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083",
+        "size_in_bytes": 22364
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/4192.44cd6f0f34eafd8859f7.js",
+        "path_type": "hardlink",
+        "sha256": "44cd6f0f34eafd8859f71164910d1c10fc5112316e7d7f9814500a78bb81cd92",
+        "sha256_in_prefix": "44cd6f0f34eafd8859f71164910d1c10fc5112316e7d7f9814500a78bb81cd92",
+        "size_in_bytes": 1048
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/4252.eede8a46ea3e963041a0.js",
+        "path_type": "hardlink",
+        "sha256": "eede8a46ea3e963041a0a27b85b9579cd46255c41c006699f18c60a329001402",
+        "sha256_in_prefix": "eede8a46ea3e963041a0a27b85b9579cd46255c41c006699f18c60a329001402",
+        "size_in_bytes": 1626
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/4261.068863dd226d19229b83.js",
+        "path_type": "hardlink",
+        "sha256": "068863dd226d19229b8344956e715444145f05e985bb744b1b2da3654748ddf6",
+        "sha256_in_prefix": "068863dd226d19229b8344956e715444145f05e985bb744b1b2da3654748ddf6",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/4796.75902764fd38f94bced1.js",
+        "path_type": "hardlink",
+        "sha256": "75902764fd38f94bced1d960d365a8d242913b8d24e1aafca399b8118fc8f185",
+        "sha256_in_prefix": "75902764fd38f94bced1d960d365a8d242913b8d24e1aafca399b8118fc8f185",
+        "size_in_bytes": 28382
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/4964.2227519e936ce54ad91c.js",
+        "path_type": "hardlink",
+        "sha256": "c3bb75a83e4bf4687df36e6be0d5d7e2f4cd297154400c209106fa81bf5a6934",
+        "sha256_in_prefix": "c3bb75a83e4bf4687df36e6be0d5d7e2f4cd297154400c209106fa81bf5a6934",
+        "size_in_bytes": 39773
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/4964.2227519e936ce54ad91c.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "40c775826a72c8ea367b1b162f281afdf1157546823ff897e73233a9d5443eaa",
+        "sha256_in_prefix": "40c775826a72c8ea367b1b162f281afdf1157546823ff897e73233a9d5443eaa",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/500e04d54f0d51666332.ttf",
+        "path_type": "hardlink",
+        "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082",
+        "sha256_in_prefix": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082",
+        "size_in_bytes": 7588
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5016.b316f1c514c38a1a5f84.js",
+        "path_type": "hardlink",
+        "sha256": "e65a57fe4ce4121910ccb7153d858e76b3e45861b422b98b8952c401916aa019",
+        "sha256_in_prefix": "e65a57fe4ce4121910ccb7153d858e76b3e45861b422b98b8952c401916aa019",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5016.b316f1c514c38a1a5f84.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "sha256_in_prefix": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5080.32d5b7990434b47d041b.js",
+        "path_type": "hardlink",
+        "sha256": "6be994241bf10006b0777b9ef11b6d5e2e3ff43bd7f6482288b63dece688ae83",
+        "sha256_in_prefix": "6be994241bf10006b0777b9ef11b6d5e2e3ff43bd7f6482288b63dece688ae83",
+        "size_in_bytes": 38454
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5080.32d5b7990434b47d041b.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "2c6770c815d66edb28a705728ec5c2230a1cfb38fbd32c40382391edbd5b01ce",
+        "sha256_in_prefix": "2c6770c815d66edb28a705728ec5c2230a1cfb38fbd32c40382391edbd5b01ce",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/51814d270d06ff0255db.woff2",
+        "path_type": "hardlink",
+        "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc",
+        "sha256_in_prefix": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc",
+        "size_in_bytes": 11316
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5260.d711d4a58f781a7a1910.js",
+        "path_type": "hardlink",
+        "sha256": "521929dd190b929b3631e074a2521c401073202d5786f935bc0e040c735d35ec",
+        "sha256_in_prefix": "521929dd190b929b3631e074a2521c401073202d5786f935bc0e040c735d35ec",
+        "size_in_bytes": 6415
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5260.d711d4a58f781a7a1910.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "47282a6fa1469e2d7bc8936d167c17ebf0fd800941104dd15097945208ccb501",
+        "sha256_in_prefix": "47282a6fa1469e2d7bc8936d167c17ebf0fd800941104dd15097945208ccb501",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5312.4aa4c75fb2deee33c916.js",
+        "path_type": "hardlink",
+        "sha256": "e2189a41e5a7372012f1cc61dd685ce5fe68b98b9a1cba8377eae8a6a263d8e9",
+        "sha256_in_prefix": "e2189a41e5a7372012f1cc61dd685ce5fe68b98b9a1cba8377eae8a6a263d8e9",
+        "size_in_bytes": 6388
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5312.4aa4c75fb2deee33c916.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "sha256_in_prefix": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5332.c43d602d0418f2c9a17b.js",
+        "path_type": "hardlink",
+        "sha256": "c43d602d0418f2c9a17b6e0c71bfe948d76b3aef2a85378f1ff4e7f3480e1f09",
+        "sha256_in_prefix": "c43d602d0418f2c9a17b6e0c71bfe948d76b3aef2a85378f1ff4e7f3480e1f09",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5d53e70ad607c2352162.woff2",
+        "path_type": "hardlink",
+        "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b",
+        "sha256_in_prefix": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b",
+        "size_in_bytes": 6908
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/5e28753be717dac97f55.woff",
+        "path_type": "hardlink",
+        "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463",
+        "sha256_in_prefix": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463",
+        "size_in_bytes": 13208
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6028.002d4261d21cce2d33e9.js",
+        "path_type": "hardlink",
+        "sha256": "724ba45477f71b279c10ba8b7794835427e53178063188aa099c9cc7472f6cce",
+        "sha256_in_prefix": "724ba45477f71b279c10ba8b7794835427e53178063188aa099c9cc7472f6cce",
+        "size_in_bytes": 80433
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6028.002d4261d21cce2d33e9.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a38486143894f3983170d896f8ba530930da8ac23d8e377bb4cea077d292099f",
+        "sha256_in_prefix": "a38486143894f3983170d896f8ba530930da8ac23d8e377bb4cea077d292099f",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/628.7614ffc7bfe1a2c7b611.js",
+        "path_type": "hardlink",
+        "sha256": "43c15d54fb5d4cb42e3b178ff0aee49190a8924e017d5eaa34ea1a766aa88d16",
+        "sha256_in_prefix": "43c15d54fb5d4cb42e3b178ff0aee49190a8924e017d5eaa34ea1a766aa88d16",
+        "size_in_bytes": 855977
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/628.7614ffc7bfe1a2c7b611.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b3034e044d616791dc3ed3a963947ea9a3622396e7614ee8ff2da92e233385fb",
+        "sha256_in_prefix": "b3034e044d616791dc3ed3a963947ea9a3622396e7614ee8ff2da92e233385fb",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6376.4d4621588467e6fab876.js",
+        "path_type": "hardlink",
+        "sha256": "9da9cc1d451532adc5c223d31723a349260e174cc7f693ff2b4f53afb1e7612e",
+        "sha256_in_prefix": "9da9cc1d451532adc5c223d31723a349260e174cc7f693ff2b4f53afb1e7612e",
+        "size_in_bytes": 128743
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6376.4d4621588467e6fab876.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "e27a794cc0beee2b8eb85c3126b4f53213b80fbfb5c6b3c2a3fd9461ac96dece",
+        "sha256_in_prefix": "e27a794cc0beee2b8eb85c3126b4f53213b80fbfb5c6b3c2a3fd9461ac96dece",
+        "size_in_bytes": 410
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6572.06cee7ea6c50d2d46a01.js",
+        "path_type": "hardlink",
+        "sha256": "06cee7ea6c50d2d46a01eb588ebaee4d9ed1377b12bff295ce8ba2d9c65b5b22",
+        "sha256_in_prefix": "06cee7ea6c50d2d46a01eb588ebaee4d9ed1377b12bff295ce8ba2d9c65b5b22",
+        "size_in_bytes": 1048
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6579.09855688acec4d1cf0bf.js",
+        "path_type": "hardlink",
+        "sha256": "09855688acec4d1cf0bf94607d9f29851504b082e5cce33d58b4ddc9ba03a39f",
+        "sha256_in_prefix": "09855688acec4d1cf0bf94607d9f29851504b082e5cce33d58b4ddc9ba03a39f",
+        "size_in_bytes": 19412
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6838.32d887907642f7ebb662.js",
+        "path_type": "hardlink",
+        "sha256": "32d887907642f7ebb662a5b1c65df4ce4627e4116e9fed145a449cc459333cff",
+        "sha256_in_prefix": "32d887907642f7ebb662a5b1c65df4ce4627e4116e9fed145a449cc459333cff",
+        "size_in_bytes": 5666
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/68534840bcfdd2bffb6f.ttf",
+        "path_type": "hardlink",
+        "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13",
+        "sha256_in_prefix": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13",
+        "size_in_bytes": 63632
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/68e8c73ef42afd3ccec5.woff2",
+        "path_type": "hardlink",
+        "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342",
+        "sha256_in_prefix": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342",
+        "size_in_bytes": 10344
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6ab6b62e9b62dae2c00d.woff",
+        "path_type": "hardlink",
+        "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949",
+        "sha256_in_prefix": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949",
+        "size_in_bytes": 4420
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/6b47c40166b6dbe21a5d.woff2",
+        "path_type": "hardlink",
+        "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe",
+        "sha256_in_prefix": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe",
+        "size_in_bytes": 5468
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/70ee1f64a20f2048c219.ttf",
+        "path_type": "hardlink",
+        "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f",
+        "sha256_in_prefix": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f",
+        "size_in_bytes": 32968
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/71d517d67827787cfabd.woff2",
+        "path_type": "hardlink",
+        "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b",
+        "sha256_in_prefix": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b",
+        "size_in_bytes": 13568
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/72.0b65da36d0ce8ad8a23d.js",
+        "path_type": "hardlink",
+        "sha256": "b89a26e61a8a11fb46e5899d972224c142c15d8774148566f7a6d52b88f5185e",
+        "sha256_in_prefix": "b89a26e61a8a11fb46e5899d972224c142c15d8774148566f7a6d52b88f5185e",
+        "size_in_bytes": 6386
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/72.0b65da36d0ce8ad8a23d.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "sha256_in_prefix": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/73d591271b1604960cb1.woff2",
+        "path_type": "hardlink",
+        "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995",
+        "sha256_in_prefix": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995",
+        "size_in_bytes": 3624
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/74444efd593c005e3f45.woff2",
+        "path_type": "hardlink",
+        "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f",
+        "sha256_in_prefix": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f",
+        "size_in_bytes": 11348
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/7448.965efa0f529a311396b6.js",
+        "path_type": "hardlink",
+        "sha256": "965efa0f529a311396b62dee1c22ff45619bdbbb5f9ce4ddd488ec65687c2efa",
+        "sha256_in_prefix": "965efa0f529a311396b62dee1c22ff45619bdbbb5f9ce4ddd488ec65687c2efa",
+        "size_in_bytes": 35729
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/7928.1f8e0a1b0d1f8ff6f3ac.js",
+        "path_type": "hardlink",
+        "sha256": "1f8e0a1b0d1f8ff6f3ac0e8969c33212e8b7e2987d079524ea752fe508318e56",
+        "sha256_in_prefix": "1f8e0a1b0d1f8ff6f3ac0e8969c33212e8b7e2987d079524ea752fe508318e56",
+        "size_in_bytes": 71314
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/7af58c5ec8f132a2ddde.woff2",
+        "path_type": "hardlink",
+        "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264",
+        "sha256_in_prefix": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264",
+        "size_in_bytes": 16440
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/8112.061a70c487fd3ff0f527.js",
+        "path_type": "hardlink",
+        "sha256": "061a70c487fd3ff0f52780a3e2b1c0bec4ada65c29c79bc6e7376b5d30ec4944",
+        "sha256_in_prefix": "061a70c487fd3ff0f52780a3e2b1c0bec4ada65c29c79bc6e7376b5d30ec4944",
+        "size_in_bytes": 98739
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/8346.f221af613dc7b1bb8d85.js",
+        "path_type": "hardlink",
+        "sha256": "f221af613dc7b1bb8d8592bff2a4d9eca509f39bf00d79e6f0bac549b3483ec1",
+        "sha256_in_prefix": "f221af613dc7b1bb8d8592bff2a4d9eca509f39bf00d79e6f0bac549b3483ec1",
+        "size_in_bytes": 15288
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/844.f1833fd77fb91174858e.js",
+        "path_type": "hardlink",
+        "sha256": "f1833fd77fb91174858e8352a86a269050d0eaacacb93471e3dca3543bfddc02",
+        "sha256_in_prefix": "f1833fd77fb91174858e8352a86a269050d0eaacacb93471e3dca3543bfddc02",
+        "size_in_bytes": 456683
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/8504.a0e0e21b3b860140195c.js",
+        "path_type": "hardlink",
+        "sha256": "a0e0e21b3b860140195c7633dc844158f997b8ea8c99694c3616b37ab367e772",
+        "sha256_in_prefix": "a0e0e21b3b860140195c7633dc844158f997b8ea8c99694c3616b37ab367e772",
+        "size_in_bytes": 17846
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/850c0af5c2238497feba.woff",
+        "path_type": "hardlink",
+        "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e",
+        "sha256_in_prefix": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e",
+        "size_in_bytes": 18668
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/8736.4e88af4acba30e807f73.js",
+        "path_type": "hardlink",
+        "sha256": "4e88af4acba30e807f7320af724021d415d016bad5296435a229a39cbb366330",
+        "sha256_in_prefix": "4e88af4acba30e807f7320af724021d415d016bad5296435a229a39cbb366330",
+        "size_in_bytes": 79619
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/8a8d244581371912b8f3.woff",
+        "path_type": "hardlink",
+        "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571",
+        "sha256_in_prefix": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571",
+        "size_in_bytes": 18748
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/9163df9c7122432e6495.ttf",
+        "path_type": "hardlink",
+        "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1",
+        "sha256_in_prefix": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1",
+        "size_in_bytes": 19584
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/9172.485af32aaa25df9bd9c1.js",
+        "path_type": "hardlink",
+        "sha256": "485af32aaa25df9bd9c13ab383dcbad3751009c1af860a0992de173c72ca5b24",
+        "sha256_in_prefix": "485af32aaa25df9bd9c13ab383dcbad3751009c1af860a0992de173c72ca5b24",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/91ee67500cc0129aa0ac.woff",
+        "path_type": "hardlink",
+        "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2",
+        "sha256_in_prefix": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2",
+        "size_in_bytes": 14112
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/95b6d2f1a50173bfedb8.ttf",
+        "path_type": "hardlink",
+        "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b",
+        "sha256_in_prefix": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b",
+        "size_in_bytes": 12228
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/97479ca6cce906abc961.woff2",
+        "path_type": "hardlink",
+        "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267",
+        "sha256_in_prefix": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267",
+        "size_in_bytes": 16988
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/99cd42a3c072d918f2f4.woff2",
+        "path_type": "hardlink",
+        "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b",
+        "sha256_in_prefix": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b",
+        "size_in_bytes": 16780
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/99f9c6750b489c9462bf.woff",
+        "path_type": "hardlink",
+        "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58",
+        "sha256_in_prefix": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58",
+        "size_in_bytes": 5980
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/9be7ceb88004ab8ad124.woff",
+        "path_type": "hardlink",
+        "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb",
+        "sha256_in_prefix": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb",
+        "size_in_bytes": 13296
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/a4af7d414440a1c17908.woff2",
+        "path_type": "hardlink",
+        "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0",
+        "sha256_in_prefix": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0",
+        "size_in_bytes": 4928
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/a6b2099fb555c60e3a0d.ttf",
+        "path_type": "hardlink",
+        "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b",
+        "sha256_in_prefix": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b",
+        "size_in_bytes": 11508
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/a6f7ec0d846ac7ad975a.woff",
+        "path_type": "hardlink",
+        "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c",
+        "sha256_in_prefix": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c",
+        "size_in_bytes": 19412
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/c2342cd8b869e01752a9.woff2",
+        "path_type": "hardlink",
+        "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866",
+        "sha256_in_prefix": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866",
+        "size_in_bytes": 26272
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/c6368d87e8a1a3a5d337.woff",
+        "path_type": "hardlink",
+        "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc",
+        "sha256_in_prefix": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc",
+        "size_in_bytes": 30772
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/c647367d1dd4e1624687.ttf",
+        "path_type": "hardlink",
+        "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877",
+        "sha256_in_prefix": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877",
+        "size_in_bytes": 10364
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/c76c5d696297d51b9cb1.woff",
+        "path_type": "hardlink",
+        "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822",
+        "sha256_in_prefix": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822",
+        "size_in_bytes": 29912
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/c943cc986384f59e86be.woff",
+        "path_type": "hardlink",
+        "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9",
+        "sha256_in_prefix": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9",
+        "size_in_bytes": 6496
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/d0332f52868370fd83ae.ttf",
+        "path_type": "hardlink",
+        "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830",
+        "sha256_in_prefix": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830",
+        "size_in_bytes": 53580
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/d04c54219f9eaec6d4d4.woff2",
+        "path_type": "hardlink",
+        "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd",
+        "sha256_in_prefix": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd",
+        "size_in_bytes": 5208
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/d96cdf2b3bdd4d64a8fd.woff",
+        "path_type": "hardlink",
+        "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a",
+        "sha256_in_prefix": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a",
+        "size_in_bytes": 10588
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/dc47344dbb6cb5b655c8.woff2",
+        "path_type": "hardlink",
+        "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1",
+        "sha256_in_prefix": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1",
+        "size_in_bytes": 16400
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/de7701e42cf1f4cf0b76.woff2",
+        "path_type": "hardlink",
+        "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c",
+        "sha256_in_prefix": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/e14fed02b1aba7ce9f5a.woff",
+        "path_type": "hardlink",
+        "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7",
+        "sha256_in_prefix": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7",
+        "size_in_bytes": 16028
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/e99ae51144bf1232efcc.woff2",
+        "path_type": "hardlink",
+        "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62",
+        "sha256_in_prefix": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62",
+        "size_in_bytes": 12216
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/ece03cfd83e22c212cde.woff",
+        "path_type": "hardlink",
+        "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba",
+        "sha256_in_prefix": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba",
+        "size_in_bytes": 14408
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/ed0b74372feefcbb9c06.ttf",
+        "path_type": "hardlink",
+        "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7",
+        "sha256_in_prefix": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7",
+        "size_in_bytes": 12344
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/f01f3e87d9c6a61c0c08.ttf",
+        "path_type": "hardlink",
+        "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa",
+        "sha256_in_prefix": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa",
+        "size_in_bytes": 27556
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/f1d6ef86f3b11a528bd5.woff",
+        "path_type": "hardlink",
+        "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf",
+        "sha256_in_prefix": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf",
+        "size_in_bytes": 19676
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/f36ea897e19f4a2e571d.ttf",
+        "path_type": "hardlink",
+        "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad",
+        "sha256_in_prefix": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad",
+        "size_in_bytes": 19436
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/f9377ab0271cda59af24.ttf",
+        "path_type": "hardlink",
+        "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5",
+        "sha256_in_prefix": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5",
+        "size_in_bytes": 31196
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter/lowlight-import.d65ac370c2373cd63559.js",
+        "path_type": "hardlink",
+        "sha256": "d65ac370c2373cd63559f859e4b79fd6b7a80a9db362e76b187c40c821adf5eb",
+        "sha256_in_prefix": "d65ac370c2373cd63559f859e4b79fd6b7a80a9db362e76b187c40c821adf5eb",
+        "size_in_bytes": 24253
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_abnf.4f2b5daebfea21593d84.js",
+        "path_type": "hardlink",
+        "sha256": "4f2b5daebfea21593d84c78cf83450c02fdc45e34397f63b64658d8689947121",
+        "sha256_in_prefix": "4f2b5daebfea21593d84c78cf83450c02fdc45e34397f63b64658d8689947121",
+        "size_in_bytes": 869
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_accesslog.2beb5a0ad3414e421048.js",
+        "path_type": "hardlink",
+        "sha256": "2beb5a0ad3414e4210489124fb4cdca77b10150fb7f771554dd923d765a394ae",
+        "sha256_in_prefix": "2beb5a0ad3414e4210489124fb4cdca77b10150fb7f771554dd923d765a394ae",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_actionscript.214bd8345e452cfa16a9.js",
+        "path_type": "hardlink",
+        "sha256": "214bd8345e452cfa16a9d5d3a9baf73697db913001218499eae6ea660ff52f1e",
+        "sha256_in_prefix": "214bd8345e452cfa16a9d5d3a9baf73697db913001218499eae6ea660ff52f1e",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ada.49665a53913f86470b30.js",
+        "path_type": "hardlink",
+        "sha256": "49665a53913f86470b309afa2da3218fe58315eff409a6b62ffc6afeafe17cbb",
+        "sha256_in_prefix": "49665a53913f86470b309afa2da3218fe58315eff409a6b62ffc6afeafe17cbb",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_angelscript.671d4ba67c8f177dea07.js",
+        "path_type": "hardlink",
+        "sha256": "671d4ba67c8f177dea07654fb3fa237e536a973c07507b9b8b3fdb3db05f17b5",
+        "sha256_in_prefix": "671d4ba67c8f177dea07654fb3fa237e536a973c07507b9b8b3fdb3db05f17b5",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_apache.d61f1f0f7820f45d9fcd.js",
+        "path_type": "hardlink",
+        "sha256": "d61f1f0f7820f45d9fcdb3c67c096fbdd29a36113dab90e177b230439205edee",
+        "sha256_in_prefix": "d61f1f0f7820f45d9fcdb3c67c096fbdd29a36113dab90e177b230439205edee",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_applescript.da4da2469330f3d4010f.js",
+        "path_type": "hardlink",
+        "sha256": "da4da2469330f3d4010fc0467ccdf9e73aa2a1142aa043ff6944792b4dc6d94c",
+        "sha256_in_prefix": "da4da2469330f3d4010fc0467ccdf9e73aa2a1142aa043ff6944792b4dc6d94c",
+        "size_in_bytes": 2683
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_arcade.18a9df3e878eae7afc7c.js",
+        "path_type": "hardlink",
+        "sha256": "18a9df3e878eae7afc7c2037d70151f15417b6b1aa017274d70867d444ff2f82",
+        "sha256_in_prefix": "18a9df3e878eae7afc7c2037d70151f15417b6b1aa017274d70867d444ff2f82",
+        "size_in_bytes": 2867
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_arduino.1dc51181f05e9a22788d.js",
+        "path_type": "hardlink",
+        "sha256": "1dc51181f05e9a22788d7ca5ffcb44b3ba86dbf72935373b0c74ae2ab0d25a99",
+        "sha256_in_prefix": "1dc51181f05e9a22788d7ca5ffcb44b3ba86dbf72935373b0c74ae2ab0d25a99",
+        "size_in_bytes": 8709
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_armasm.2471a5146faf73887b92.js",
+        "path_type": "hardlink",
+        "sha256": "2471a5146faf73887b92fd7be4ccf619d12fd5ee613ab86a0e0d92e5908cd3bb",
+        "sha256_in_prefix": "2471a5146faf73887b92fd7be4ccf619d12fd5ee613ab86a0e0d92e5908cd3bb",
+        "size_in_bytes": 3198
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_asciidoc.bee39f0edb5b6c633645.js",
+        "path_type": "hardlink",
+        "sha256": "bee39f0edb5b6c633645647da37dff408eb9202065574a0f3387128247197a99",
+        "sha256_in_prefix": "bee39f0edb5b6c633645647da37dff408eb9202065574a0f3387128247197a99",
+        "size_in_bytes": 2525
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_aspectj.b8b660adcc82903712a2.js",
+        "path_type": "hardlink",
+        "sha256": "b8b660adcc82903712a22f12e4afcff7ec01c682ebc23ca5349367416ab37d7a",
+        "sha256_in_prefix": "b8b660adcc82903712a22f12e4afcff7ec01c682ebc23ca5349367416ab37d7a",
+        "size_in_bytes": 2611
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_autohotkey.579caae2f6f71d2dae53.js",
+        "path_type": "hardlink",
+        "sha256": "579caae2f6f71d2dae53b87c562372344addf8cdb335a81147c6fb49e4620910",
+        "sha256_in_prefix": "579caae2f6f71d2dae53b87c562372344addf8cdb335a81147c6fb49e4620910",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_autoit.f4bb04501d87f46a065a.js",
+        "path_type": "hardlink",
+        "sha256": "f4bb04501d87f46a065ad0dbea724d6501b1a9a445419cf54f42a71e0cc81ae9",
+        "sha256_in_prefix": "f4bb04501d87f46a065ad0dbea724d6501b1a9a445419cf54f42a71e0cc81ae9",
+        "size_in_bytes": 6640
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_avrasm.87ce2c1795962e8852f4.js",
+        "path_type": "hardlink",
+        "sha256": "87ce2c1795962e8852f403468a77858b0293ba9e28f5d7458e424c5d8ee0493a",
+        "sha256_in_prefix": "87ce2c1795962e8852f403468a77858b0293ba9e28f5d7458e424c5d8ee0493a",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_awk.dee2522c49e7ff83e5d2.js",
+        "path_type": "hardlink",
+        "sha256": "dee2522c49e7ff83e5d2fd00a758676d176e3f40dc600f2983c280aaa33464ac",
+        "sha256_in_prefix": "dee2522c49e7ff83e5d2fd00a758676d176e3f40dc600f2983c280aaa33464ac",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_axapta.e054b6458371e494a81b.js",
+        "path_type": "hardlink",
+        "sha256": "e054b6458371e494a81b160345ab6b759cbdbc74dcff227c8c66bd7a3f7390b4",
+        "sha256_in_prefix": "e054b6458371e494a81b160345ab6b759cbdbc74dcff227c8c66bd7a3f7390b4",
+        "size_in_bytes": 1684
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_bash.16efb34da0c9cd6e3f99.js",
+        "path_type": "hardlink",
+        "sha256": "16efb34da0c9cd6e3f99976dcbf1358813534ab5ca83907b2e705077411a7b5a",
+        "sha256_in_prefix": "16efb34da0c9cd6e3f99976dcbf1358813534ab5ca83907b2e705077411a7b5a",
+        "size_in_bytes": 2107
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_basic.f97c08cee1c1563816ce.js",
+        "path_type": "hardlink",
+        "sha256": "f97c08cee1c1563816ce976e9c95d6cd52a53565043a9d71182b229677da3a93",
+        "sha256_in_prefix": "f97c08cee1c1563816ce976e9c95d6cd52a53565043a9d71182b229677da3a93",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_bnf.87532c1b25261be1d327.js",
+        "path_type": "hardlink",
+        "sha256": "87532c1b25261be1d32795299f361cee8ea8048db2191ede9e16c40fc4517901",
+        "sha256_in_prefix": "87532c1b25261be1d32795299f361cee8ea8048db2191ede9e16c40fc4517901",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_brainfuck.208e9ebf185e38116588.js",
+        "path_type": "hardlink",
+        "sha256": "208e9ebf185e38116588dee0e54f4b1a624fea4216c5c0a29e7e192404769f54",
+        "sha256_in_prefix": "208e9ebf185e38116588dee0e54f4b1a624fea4216c5c0a29e7e192404769f54",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_c.f529b8014629b19bc9d5.js",
+        "path_type": "hardlink",
+        "sha256": "f529b8014629b19bc9d54b680f67cdff56bc7ed00647b578bfa8ccc79d85589e",
+        "sha256_in_prefix": "f529b8014629b19bc9d54b680f67cdff56bc7ed00647b578bfa8ccc79d85589e",
+        "size_in_bytes": 4417
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cLike.5447bb55d559a01f113d.js",
+        "path_type": "hardlink",
+        "sha256": "5447bb55d559a01f113ddde26c9e2ebea8d48960975ada79745bbe866944f774",
+        "sha256_in_prefix": "5447bb55d559a01f113ddde26c9e2ebea8d48960975ada79745bbe866944f774",
+        "size_in_bytes": 5159
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cal.e73c6c5cd73dad04bf84.js",
+        "path_type": "hardlink",
+        "sha256": "e73c6c5cd73dad04bf848e1ac1b3f23e269ed8458e3ca855894e4e408e2573f0",
+        "sha256_in_prefix": "e73c6c5cd73dad04bf848e1ac1b3f23e269ed8458e3ca855894e4e408e2573f0",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_capnproto.98a3195912a8890aa799.js",
+        "path_type": "hardlink",
+        "sha256": "98a3195912a8890aa799a0782bb591a94a2adb0867f7df4e5a13c5a36f8e9c37",
+        "sha256_in_prefix": "98a3195912a8890aa799a0782bb591a94a2adb0867f7df4e5a13c5a36f8e9c37",
+        "size_in_bytes": 896
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ceylon.2c176d712cf381189172.js",
+        "path_type": "hardlink",
+        "sha256": "2c176d712cf3811891720b4a1b07e407ce2c3203b37dacbe25507fc7a75f283c",
+        "sha256_in_prefix": "2c176d712cf3811891720b4a1b07e407ce2c3203b37dacbe25507fc7a75f283c",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_clean.02ec133011c0d37c715b.js",
+        "path_type": "hardlink",
+        "sha256": "02ec133011c0d37c715bc55ecaf5b1732e3eebf2d2ca729c29e40f3a72e95de5",
+        "sha256_in_prefix": "02ec133011c0d37c715bc55ecaf5b1732e3eebf2d2ca729c29e40f3a72e95de5",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_clojure.a267f7d8af5c94ba53cf.js",
+        "path_type": "hardlink",
+        "sha256": "a267f7d8af5c94ba53cfc7631daf56d4959e92c2e39375641d17cc36418c8e84",
+        "sha256_in_prefix": "a267f7d8af5c94ba53cfc7631daf56d4959e92c2e39375641d17cc36418c8e84",
+        "size_in_bytes": 3681
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_clojureRepl.e57aea3b1024e105af41.js",
+        "path_type": "hardlink",
+        "sha256": "e57aea3b1024e105af4137d56928ca7b1af71577659aaf77979b0f24b0549ba1",
+        "sha256_in_prefix": "e57aea3b1024e105af4137d56928ca7b1af71577659aaf77979b0f24b0549ba1",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cmake.ed5ee8bebca15d19effa.js",
+        "path_type": "hardlink",
+        "sha256": "ed5ee8bebca15d19effaaa9f1ea28db773edea0eb697e2e23b4bc8925ccb84dc",
+        "sha256_in_prefix": "ed5ee8bebca15d19effaaa9f1ea28db773edea0eb697e2e23b4bc8925ccb84dc",
+        "size_in_bytes": 2497
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_coffeescript.8df0861ebe4c490da555.js",
+        "path_type": "hardlink",
+        "sha256": "8df0861ebe4c490da555c3a2f21a835fef317d932a463222fc771403746a2e55",
+        "sha256_in_prefix": "8df0861ebe4c490da555c3a2f21a835fef317d932a463222fc771403746a2e55",
+        "size_in_bytes": 3057
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_coq.6e0b7ad5c9942cea93c2.js",
+        "path_type": "hardlink",
+        "sha256": "6e0b7ad5c9942cea93c2293b77bea7d2e98cbba9f0d3f0cf5d89dd3e56bbea19",
+        "sha256_in_prefix": "6e0b7ad5c9942cea93c2293b77bea7d2e98cbba9f0d3f0cf5d89dd3e56bbea19",
+        "size_in_bytes": 3538
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cos.3b1d859227ce8a707084.js",
+        "path_type": "hardlink",
+        "sha256": "3b1d859227ce8a7070845454401942ba31c04e4742a6a4b428b827b8bf4cfc34",
+        "sha256_in_prefix": "3b1d859227ce8a7070845454401942ba31c04e4742a6a4b428b827b8bf4cfc34",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_cpp.095d849e3fd14d3547ef.js",
+        "path_type": "hardlink",
+        "sha256": "095d849e3fd14d3547ef5be6be8aef466ac2903bb98155ad395075c0458c8e2b",
+        "sha256_in_prefix": "095d849e3fd14d3547ef5be6be8aef466ac2903bb98155ad395075c0458c8e2b",
+        "size_in_bytes": 4968
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_crmsh.42aae89f3c4cb8b4691b.js",
+        "path_type": "hardlink",
+        "sha256": "42aae89f3c4cb8b4691bab53453ef9b1bbe9ca37c310c20bacf1edee3e24933b",
+        "sha256_in_prefix": "42aae89f3c4cb8b4691bab53453ef9b1bbe9ca37c310c20bacf1edee3e24933b",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_crystal.b939be90d64c1418b046.js",
+        "path_type": "hardlink",
+        "sha256": "b939be90d64c1418b04684507f8fd8eb51737c76c9ea4667dff2cbb2470d17a8",
+        "sha256_in_prefix": "b939be90d64c1418b04684507f8fd8eb51737c76c9ea4667dff2cbb2470d17a8",
+        "size_in_bytes": 3605
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_csharp.6076ec339ce94f1a60e1.js",
+        "path_type": "hardlink",
+        "sha256": "6076ec339ce94f1a60e17e75db28e1a63919e90f0c93fd91be49b9212f9dba4c",
+        "sha256_in_prefix": "6076ec339ce94f1a60e17e75db28e1a63919e90f0c93fd91be49b9212f9dba4c",
+        "size_in_bytes": 3947
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_csp.59c07510deb2c080ff8d.js",
+        "path_type": "hardlink",
+        "sha256": "59c07510deb2c080ff8d67eb07540deeb3724386e6db4a7f206eb1179e18ed09",
+        "sha256_in_prefix": "59c07510deb2c080ff8d67eb07540deeb3724386e6db4a7f206eb1179e18ed09",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_css.442a595a79fe0523dc6c.js",
+        "path_type": "hardlink",
+        "sha256": "442a595a79fe0523dc6c6c357c2080574f8b484d5ddfe88fbf02ead8d9ea62f1",
+        "sha256_in_prefix": "442a595a79fe0523dc6c6c357c2080574f8b484d5ddfe88fbf02ead8d9ea62f1",
+        "size_in_bytes": 6846
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_d.c9b56d82dcac3a267fc2.js",
+        "path_type": "hardlink",
+        "sha256": "c9b56d82dcac3a267fc244111595dea89fcf37024495298a97fdff534a87d28f",
+        "sha256_in_prefix": "c9b56d82dcac3a267fc244111595dea89fcf37024495298a97fdff534a87d28f",
+        "size_in_bytes": 2224
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dart.2363fac0d1b948fc5676.js",
+        "path_type": "hardlink",
+        "sha256": "2363fac0d1b948fc56762c53231d1e31d74a2d994b99dbcc54db62079fcdf570",
+        "sha256_in_prefix": "2363fac0d1b948fc56762c53231d1e31d74a2d994b99dbcc54db62079fcdf570",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_delphi.775fe30f1fb9372db32d.js",
+        "path_type": "hardlink",
+        "sha256": "775fe30f1fb9372db32dfda87dab6f22cba0f6f1eef06d5a0b4ebbcffcbfc458",
+        "sha256_in_prefix": "775fe30f1fb9372db32dfda87dab6f22cba0f6f1eef06d5a0b4ebbcffcbfc458",
+        "size_in_bytes": 2024
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_diff.9908c6e141afca717f3e.js",
+        "path_type": "hardlink",
+        "sha256": "9908c6e141afca717f3e1614ce922fdd508c6bd790601a5e8523ed989e2df962",
+        "sha256_in_prefix": "9908c6e141afca717f3e1614ce922fdd508c6bd790601a5e8523ed989e2df962",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_django.b75b7e3611d19e57f355.js",
+        "path_type": "hardlink",
+        "sha256": "b75b7e3611d19e57f3559f938ab39961d07345f3cd2e345c0018094b68f25b60",
+        "sha256_in_prefix": "b75b7e3611d19e57f3559f938ab39961d07345f3cd2e345c0018094b68f25b60",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dns.20158cf4bcec923b10ff.js",
+        "path_type": "hardlink",
+        "sha256": "20158cf4bcec923b10ffdc88ac5b2eb13296b3d2ff7902c821c4c51e7aa02238",
+        "sha256_in_prefix": "20158cf4bcec923b10ffdc88ac5b2eb13296b3d2ff7902c821c4c51e7aa02238",
+        "size_in_bytes": 1812
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dockerfile.8196874d3b9bc32d334c.js",
+        "path_type": "hardlink",
+        "sha256": "8196874d3b9bc32d334c55d35ce9863e268603f8b19c25ff22c5f8b97b594f4d",
+        "sha256_in_prefix": "8196874d3b9bc32d334c55d35ce9863e268603f8b19c25ff22c5f8b97b594f4d",
+        "size_in_bytes": 477
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dos.fd1be4b257d5ccae54fc.js",
+        "path_type": "hardlink",
+        "sha256": "fd1be4b257d5ccae54fcc45d6c6b277784176060f390cf7535501dff3982ffdb",
+        "sha256_in_prefix": "fd1be4b257d5ccae54fcc45d6c6b277784176060f390cf7535501dff3982ffdb",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dsconfig.104aa0031124ead54547.js",
+        "path_type": "hardlink",
+        "sha256": "104aa0031124ead54547e0e380ea90381c8bc894aad55a960258bec420b2b693",
+        "sha256_in_prefix": "104aa0031124ead54547e0e380ea90381c8bc894aad55a960258bec420b2b693",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dts.4021fa1c250e45d85ab1.js",
+        "path_type": "hardlink",
+        "sha256": "4021fa1c250e45d85ab1221a452dbe6e9056a7b310e00d73336cf00833197a84",
+        "sha256_in_prefix": "4021fa1c250e45d85ab1221a452dbe6e9056a7b310e00d73336cf00833197a84",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_dust.f0a4468e7bee5227da40.js",
+        "path_type": "hardlink",
+        "sha256": "f0a4468e7bee5227da40d2bed033afe8bf4a3f625b6d0aaad6cafb4366b8725a",
+        "sha256_in_prefix": "f0a4468e7bee5227da40d2bed033afe8bf4a3f625b6d0aaad6cafb4366b8725a",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ebnf.399f9b4591dc83ae3b98.js",
+        "path_type": "hardlink",
+        "sha256": "399f9b4591dc83ae3b98a0d5f1c668783c0438cc67b3796a9f593e0cd15709d0",
+        "sha256_in_prefix": "399f9b4591dc83ae3b98a0d5f1c668783c0438cc67b3796a9f593e0cd15709d0",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_elixir.ca67e63cc6045d5e7f91.js",
+        "path_type": "hardlink",
+        "sha256": "ca67e63cc6045d5e7f910640c57a64eeed973dd8878c6da51ce3b5d1bfbff752",
+        "sha256_in_prefix": "ca67e63cc6045d5e7f910640c57a64eeed973dd8878c6da51ce3b5d1bfbff752",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_elm.e5b1be64dae2ab85fa2b.js",
+        "path_type": "hardlink",
+        "sha256": "e5b1be64dae2ab85fa2b5f616581d9b5d7d4817424509bcfcbabba3e3ee5438c",
+        "sha256_in_prefix": "e5b1be64dae2ab85fa2b5f616581d9b5d7d4817424509bcfcbabba3e3ee5438c",
+        "size_in_bytes": 1192
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_erb.620801854e72baf3f233.js",
+        "path_type": "hardlink",
+        "sha256": "620801854e72baf3f2338f24a337721709d2438c67cd7fc14ecf2f26ce9821b2",
+        "sha256_in_prefix": "620801854e72baf3f2338f24a337721709d2438c67cd7fc14ecf2f26ce9821b2",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_erlang.8ff49381785b3ef40201.js",
+        "path_type": "hardlink",
+        "sha256": "8ff49381785b3ef402014cf4be64d27afe5f2d6c9883a2a82c072a99410a9435",
+        "sha256_in_prefix": "8ff49381785b3ef402014cf4be64d27afe5f2d6c9883a2a82c072a99410a9435",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_erlangRepl.18cab508d07fe32a9d30.js",
+        "path_type": "hardlink",
+        "sha256": "18cab508d07fe32a9d30032b8768af57126705014644aba07bc56fc329036a12",
+        "sha256_in_prefix": "18cab508d07fe32a9d30032b8768af57126705014644aba07bc56fc329036a12",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_excel.af799eac3f995cc11628.js",
+        "path_type": "hardlink",
+        "sha256": "af799eac3f995cc11628793536a4f1e286061b5200564885ebd5a9ed97775f9a",
+        "sha256_in_prefix": "af799eac3f995cc11628793536a4f1e286061b5200564885ebd5a9ed97775f9a",
+        "size_in_bytes": 4381
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_fix.6221fd0669960f6cf3fc.js",
+        "path_type": "hardlink",
+        "sha256": "6221fd0669960f6cf3fce9954c758116538c352648c30100c64e2cfa3e387a15",
+        "sha256_in_prefix": "6221fd0669960f6cf3fce9954c758116538c352648c30100c64e2cfa3e387a15",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_flix.ecc288d0fd35ad004963.js",
+        "path_type": "hardlink",
+        "sha256": "ecc288d0fd35ad004963175b72f8db834b530be9933ac5b27cd0b18cecb1c92f",
+        "sha256_in_prefix": "ecc288d0fd35ad004963175b72f8db834b530be9933ac5b27cd0b18cecb1c92f",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_fortran.5c8c60cd9bfdc0f16235.js",
+        "path_type": "hardlink",
+        "sha256": "5c8c60cd9bfdc0f1623590ec365266e685226eda0ea95b70a1f5aa96e526fe6b",
+        "sha256_in_prefix": "5c8c60cd9bfdc0f1623590ec365266e685226eda0ea95b70a1f5aa96e526fe6b",
+        "size_in_bytes": 4845
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_fsharp.1c7e3e36fc7b7b3e0a66.js",
+        "path_type": "hardlink",
+        "sha256": "1c7e3e36fc7b7b3e0a662a609a5d922a0bcfe4fb01c21694b70efe1995d1dbdf",
+        "sha256_in_prefix": "1c7e3e36fc7b7b3e0a662a609a5d922a0bcfe4fb01c21694b70efe1995d1dbdf",
+        "size_in_bytes": 1194
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gams.0bc441cdc55088e83213.js",
+        "path_type": "hardlink",
+        "sha256": "0bc441cdc55088e83213cbb2ab87bb5a6d6ebd3eb80683fa277e4b7bb2675fa0",
+        "sha256_in_prefix": "0bc441cdc55088e83213cbb2ab87bb5a6d6ebd3eb80683fa277e4b7bb2675fa0",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gauss.139d186be344c180517b.js",
+        "path_type": "hardlink",
+        "sha256": "139d186be344c180517b68ffab59ea2fb93129acaea824c1114adf3532272c53",
+        "sha256_in_prefix": "139d186be344c180517b68ffab59ea2fb93129acaea824c1114adf3532272c53",
+        "size_in_bytes": 13041
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gcode.6d9479c5c0e2cbb240a1.js",
+        "path_type": "hardlink",
+        "sha256": "6d9479c5c0e2cbb240a14c084656aefd28991138bff3c75110f4bf18dd97ac10",
+        "sha256_in_prefix": "6d9479c5c0e2cbb240a14c084656aefd28991138bff3c75110f4bf18dd97ac10",
+        "size_in_bytes": 1062
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gherkin.8729fe25611f80727a22.js",
+        "path_type": "hardlink",
+        "sha256": "8729fe25611f80727a22b59886ddd015d1dadf8924f0d71242ed23ebbe72a847",
+        "sha256_in_prefix": "8729fe25611f80727a22b59886ddd015d1dadf8924f0d71242ed23ebbe72a847",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_glsl.7ca10b35feba10189a80.js",
+        "path_type": "hardlink",
+        "sha256": "7ca10b35feba10189a80667d8b7b53f57bb6046ae915f24510e0cda1b27bff3e",
+        "sha256_in_prefix": "7ca10b35feba10189a80667d8b7b53f57bb6046ae915f24510e0cda1b27bff3e",
+        "size_in_bytes": 8384
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gml.65d8f9c1f928ce0de0c6.js",
+        "path_type": "hardlink",
+        "sha256": "65d8f9c1f928ce0de0c6acb65ef585111139e15ca4bc0d9c054d4f6abf61946c",
+        "sha256_in_prefix": "65d8f9c1f928ce0de0c6acb65ef585111139e15ca4bc0d9c054d4f6abf61946c",
+        "size_in_bytes": 50616
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_go.35c0817d9e7e4d775120.js",
+        "path_type": "hardlink",
+        "sha256": "35c0817d9e7e4d775120c147a9c3f1076f894820a5fc767f5fb63481e051d416",
+        "sha256_in_prefix": "35c0817d9e7e4d775120c147a9c3f1076f894820a5fc767f5fb63481e051d416",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_golo.46fe4a06cc4951bc6e4d.js",
+        "path_type": "hardlink",
+        "sha256": "46fe4a06cc4951bc6e4de029a2727e75b0792bb1cc79d52466931102d4465bba",
+        "sha256_in_prefix": "46fe4a06cc4951bc6e4de029a2727e75b0792bb1cc79d52466931102d4465bba",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_gradle.70696147ab1b5ebb1e3a.js",
+        "path_type": "hardlink",
+        "sha256": "70696147ab1b5ebb1e3ab8118f8445f362d8472aaa5eb75c4ce0920b0af792bb",
+        "sha256_in_prefix": "70696147ab1b5ebb1e3ab8118f8445f362d8472aaa5eb75c4ce0920b0af792bb",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_groovy.43aba474673f37078de2.js",
+        "path_type": "hardlink",
+        "sha256": "43aba474673f37078de201d2c6e83fb21b738e923cdf8f3db0d39d61e6605619",
+        "sha256_in_prefix": "43aba474673f37078de201d2c6e83fb21b738e923cdf8f3db0d39d61e6605619",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_haml.b1e7a59e21aaf0a92d6b.js",
+        "path_type": "hardlink",
+        "sha256": "b1e7a59e21aaf0a92d6b85dc00051043ccf371fb6305eb805b11b093f00de4a7",
+        "sha256_in_prefix": "b1e7a59e21aaf0a92d6b85dc00051043ccf371fb6305eb805b11b093f00de4a7",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_handlebars.e3995df45316cff049ac.js",
+        "path_type": "hardlink",
+        "sha256": "e3995df45316cff049ac7980908adfe931bde1f93033cb9b1344b9a0856af9fd",
+        "sha256_in_prefix": "e3995df45316cff049ac7980908adfe931bde1f93033cb9b1344b9a0856af9fd",
+        "size_in_bytes": 2381
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_haskell.469e35262dd5abb94cc0.js",
+        "path_type": "hardlink",
+        "sha256": "469e35262dd5abb94cc0eb572d2a7d527329f13fc9b0886bf46c61ec50775035",
+        "sha256_in_prefix": "469e35262dd5abb94cc0eb572d2a7d527329f13fc9b0886bf46c61ec50775035",
+        "size_in_bytes": 1745
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_haxe.4f3b9a2b96ad0f8da90e.js",
+        "path_type": "hardlink",
+        "sha256": "4f3b9a2b96ad0f8da90e6bd42d9ee2d8e539f5aeec265961195c94bd1deb0190",
+        "sha256_in_prefix": "4f3b9a2b96ad0f8da90e6bd42d9ee2d8e539f5aeec265961195c94bd1deb0190",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_hsp.5f662cf13458158f96d8.js",
+        "path_type": "hardlink",
+        "sha256": "5f662cf13458158f96d87e2185aea8517fee26c8225756575aed4719bf82c841",
+        "sha256_in_prefix": "5f662cf13458158f96d87e2185aea8517fee26c8225756575aed4719bf82c841",
+        "size_in_bytes": 3444
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_htmlbars.723daa53be43c22e6be7.js",
+        "path_type": "hardlink",
+        "sha256": "723daa53be43c22e6be77c57530fa418e5f1924d5c15693209f560df28ff5b47",
+        "sha256_in_prefix": "723daa53be43c22e6be77c57530fa418e5f1924d5c15693209f560df28ff5b47",
+        "size_in_bytes": 2492
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_http.b87b0ae6a5f4ed95f016.js",
+        "path_type": "hardlink",
+        "sha256": "b87b0ae6a5f4ed95f016803db06181474b3612c2bb84fda6a26432a597852048",
+        "sha256_in_prefix": "b87b0ae6a5f4ed95f016803db06181474b3612c2bb84fda6a26432a597852048",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_hy.86f934f9bfbc65e90aa7.js",
+        "path_type": "hardlink",
+        "sha256": "86f934f9bfbc65e90aa7b6371d0869031f6024e487e5ec95df1a91aac6eced8a",
+        "sha256_in_prefix": "86f934f9bfbc65e90aa7b6371d0869031f6024e487e5ec95df1a91aac6eced8a",
+        "size_in_bytes": 3006
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_inform7.8c22795bad20f56ba1f5.js",
+        "path_type": "hardlink",
+        "sha256": "8c22795bad20f56ba1f53ed52499a35de0b16254c1c1c673a6705b3ed5ca7906",
+        "sha256_in_prefix": "8c22795bad20f56ba1f53ed52499a35de0b16254c1c1c673a6705b3ed5ca7906",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ini.97af616f6123f27a21eb.js",
+        "path_type": "hardlink",
+        "sha256": "97af616f6123f27a21eba6eb77a1f230d009ce8b79407c7d65ff4b7f80f56ab6",
+        "sha256_in_prefix": "97af616f6123f27a21eba6eb77a1f230d009ce8b79407c7d65ff4b7f80f56ab6",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_irpf90.e6b56d202707b1b81581.js",
+        "path_type": "hardlink",
+        "sha256": "e6b56d202707b1b815814b83c1cd250117703e8cb821ad8ab3f8e4558ce9d9b0",
+        "sha256_in_prefix": "e6b56d202707b1b815814b83c1cd250117703e8cb821ad8ab3f8e4558ce9d9b0",
+        "size_in_bytes": 4862
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_isbl.9b1d71b4b8a05100e6e5.js",
+        "path_type": "hardlink",
+        "sha256": "9b1d71b4b8a05100e6e5d5e00fe2986ccc07ac43921a71341d0246b268f869c6",
+        "sha256_in_prefix": "9b1d71b4b8a05100e6e5d5e00fe2986ccc07ac43921a71341d0246b268f869c6",
+        "size_in_bytes": 71780
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_java.906237646724e30629d8.js",
+        "path_type": "hardlink",
+        "sha256": "906237646724e30629d8496981286f8da94f9cc3d373f90f74168232d6194939",
+        "sha256_in_prefix": "906237646724e30629d8496981286f8da94f9cc3d373f90f74168232d6194939",
+        "size_in_bytes": 2607
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_javascript.e9874421a9bb1679e5fd.js",
+        "path_type": "hardlink",
+        "sha256": "e9874421a9bb1679e5fd3c5830d415e82883f177285d1b62aa6a8ef925cfba8d",
+        "sha256_in_prefix": "e9874421a9bb1679e5fd3c5830d415e82883f177285d1b62aa6a8ef925cfba8d",
+        "size_in_bytes": 5269
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_jbossCli.e9c0209e3810031891c5.js",
+        "path_type": "hardlink",
+        "sha256": "e9c0209e3810031891c5fbb00131e6bb8ee8134bd73743ca1af43102bf15911a",
+        "sha256_in_prefix": "e9c0209e3810031891c5fbb00131e6bb8ee8134bd73743ca1af43102bf15911a",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_json.46e0dad48fe7c6a86034.js",
+        "path_type": "hardlink",
+        "sha256": "46e0dad48fe7c6a86034f8d0e13984b944f34ac50532fc9ad1f1d0c5681ce067",
+        "sha256_in_prefix": "46e0dad48fe7c6a86034f8d0e13984b944f34ac50532fc9ad1f1d0c5681ce067",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_julia.847f533ddb54f1aa3ec3.js",
+        "path_type": "hardlink",
+        "sha256": "847f533ddb54f1aa3ec3a6e64343a14fb788c417573564241b49dc5706f6ba33",
+        "sha256_in_prefix": "847f533ddb54f1aa3ec3a6e64343a14fb788c417573564241b49dc5706f6ba33",
+        "size_in_bytes": 4038
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_juliaRepl.9cbfd8bfb1153fc14cce.js",
+        "path_type": "hardlink",
+        "sha256": "9cbfd8bfb1153fc14ccee7161854a84824d19ef27a4189f89be1f168cc289724",
+        "sha256_in_prefix": "9cbfd8bfb1153fc14ccee7161854a84824d19ef27a4189f89be1f168cc289724",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_kotlin.944928818b4720f62e93.js",
+        "path_type": "hardlink",
+        "sha256": "944928818b4720f62e93a8cba60d8263f452149e9147e4731091a716586314ef",
+        "sha256_in_prefix": "944928818b4720f62e93a8cba60d8263f452149e9147e4731091a716586314ef",
+        "size_in_bytes": 3327
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lasso.cf24a92577415fcde4d9.js",
+        "path_type": "hardlink",
+        "sha256": "cf24a92577415fcde4d957112a91da2f386a76837c0ab51ca5bd968620eb7f90",
+        "sha256_in_prefix": "cf24a92577415fcde4d957112a91da2f386a76837c0ab51ca5bd968620eb7f90",
+        "size_in_bytes": 3009
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_latex.7ecb6b0511a34dd243df.js",
+        "path_type": "hardlink",
+        "sha256": "7ecb6b0511a34dd243df17d258b5c58075e01dcb42f66ddf4edaef3d5b2972cf",
+        "sha256_in_prefix": "7ecb6b0511a34dd243df17d258b5c58075e01dcb42f66ddf4edaef3d5b2972cf",
+        "size_in_bytes": 3568
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ldif.24a4d60d5c7921abb43c.js",
+        "path_type": "hardlink",
+        "sha256": "24a4d60d5c7921abb43c04eb37bf38810469659c59c1afb0ac6af6dcc275be2e",
+        "sha256_in_prefix": "24a4d60d5c7921abb43c04eb37bf38810469659c59c1afb0ac6af6dcc275be2e",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_leaf.66c4242b3782d2f99dbc.js",
+        "path_type": "hardlink",
+        "sha256": "66c4242b3782d2f99dbcce51c15d5806fe1caeb80b1c2017320705ecd0de8c3d",
+        "sha256_in_prefix": "66c4242b3782d2f99dbcce51c15d5806fe1caeb80b1c2017320705ecd0de8c3d",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_less.bcbb570ad1cc1a57d1df.js",
+        "path_type": "hardlink",
+        "sha256": "bcbb570ad1cc1a57d1df30a3ac79628304bcd6d0a453a64cc85788fc61fdd9dd",
+        "sha256_in_prefix": "bcbb570ad1cc1a57d1df30a3ac79628304bcd6d0a453a64cc85788fc61fdd9dd",
+        "size_in_bytes": 7636
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lisp.2844a101d9722d406865.js",
+        "path_type": "hardlink",
+        "sha256": "2844a101d9722d4068658c41a80f9f1cdbc4b5236a9f82b7b9050aa174afcfdb",
+        "sha256_in_prefix": "2844a101d9722d4068658c41a80f9f1cdbc4b5236a9f82b7b9050aa174afcfdb",
+        "size_in_bytes": 1196
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_livecodeserver.0909e22c40779c4dd274.js",
+        "path_type": "hardlink",
+        "sha256": "0909e22c40779c4dd274bdba3adbb4c20d0571a43356fc304e97a1e73984bc3d",
+        "sha256_in_prefix": "0909e22c40779c4dd274bdba3adbb4c20d0571a43356fc304e97a1e73984bc3d",
+        "size_in_bytes": 8270
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_livescript.a66919437220392d5dc5.js",
+        "path_type": "hardlink",
+        "sha256": "a66919437220392d5dc5d25af4f30a87b910fb5a94ad8e51d9dbb325cf8ce8c1",
+        "sha256_in_prefix": "a66919437220392d5dc5d25af4f30a87b910fb5a94ad8e51d9dbb325cf8ce8c1",
+        "size_in_bytes": 3436
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_llvm.0ff1e1a34d0130a22750.js",
+        "path_type": "hardlink",
+        "sha256": "0ff1e1a34d0130a227504bf7ba36f7ca13d0dd00888b5cdd8914253ba2921cad",
+        "sha256_in_prefix": "0ff1e1a34d0130a227504bf7ba36f7ca13d0dd00888b5cdd8914253ba2921cad",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lsl.f3be99d4458daae42544.js",
+        "path_type": "hardlink",
+        "sha256": "f3be99d4458daae42544a6f1241bbdc7df3a405b356577378ab09708b08f71e1",
+        "sha256_in_prefix": "f3be99d4458daae42544a6f1241bbdc7df3a405b356577378ab09708b08f71e1",
+        "size_in_bytes": 11939
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_lua.57756cf1a7e57ede21e8.js",
+        "path_type": "hardlink",
+        "sha256": "57756cf1a7e57ede21e8d3008f3dc61ec9fbddf07efd903a4d7bd6352f5526d3",
+        "sha256_in_prefix": "57756cf1a7e57ede21e8d3008f3dc61ec9fbddf07efd903a4d7bd6352f5526d3",
+        "size_in_bytes": 1937
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_makefile.b7ad7036b033d3e5d790.js",
+        "path_type": "hardlink",
+        "sha256": "b7ad7036b033d3e5d79093ca4bb6f5990f1236bea37f9f7e67dd72e5373c4355",
+        "sha256_in_prefix": "b7ad7036b033d3e5d79093ca4bb6f5990f1236bea37f9f7e67dd72e5373c4355",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_markdown.227e8610386e41da7833.js",
+        "path_type": "hardlink",
+        "sha256": "227e8610386e41da783314240e078880718693b862a2cb05fca9c0901b7c287f",
+        "sha256_in_prefix": "227e8610386e41da783314240e078880718693b862a2cb05fca9c0901b7c287f",
+        "size_in_bytes": 2064
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mathematica.730d903f7d60645cc1fc.js",
+        "path_type": "hardlink",
+        "sha256": "730d903f7d60645cc1fc339650d782b8384d3345b108ce2b67e6a95674190ac5",
+        "sha256_in_prefix": "730d903f7d60645cc1fc339650d782b8384d3345b108ce2b67e6a95674190ac5",
+        "size_in_bytes": 113029
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_matlab.6f3e343d90f3509a8e5d.js",
+        "path_type": "hardlink",
+        "sha256": "6f3e343d90f3509a8e5d045ec618fdc449f21922422f11ff40a993c38bd8b2eb",
+        "sha256_in_prefix": "6f3e343d90f3509a8e5d045ec618fdc449f21922422f11ff40a993c38bd8b2eb",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_maxima.a4895c58a3f94c76611f.js",
+        "path_type": "hardlink",
+        "sha256": "a4895c58a3f94c76611fba99844e23d9caa4540451474bb59e609a5cdc843321",
+        "sha256_in_prefix": "a4895c58a3f94c76611fba99844e23d9caa4540451474bb59e609a5cdc843321",
+        "size_in_bytes": 28762
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mel.ed34399e552276132a53.js",
+        "path_type": "hardlink",
+        "sha256": "ed34399e552276132a535cb90e9f9ef62956829dd2f4eea58447340023085a2b",
+        "sha256_in_prefix": "ed34399e552276132a535cb90e9f9ef62956829dd2f4eea58447340023085a2b",
+        "size_in_bytes": 16590
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mercury.8553718d854e25446797.js",
+        "path_type": "hardlink",
+        "sha256": "8553718d854e254467978606c7f1b232fc2d97f2138b16078c2a9f1c5e7acd84",
+        "sha256_in_prefix": "8553718d854e254467978606c7f1b232fc2d97f2138b16078c2a9f1c5e7acd84",
+        "size_in_bytes": 2110
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mipsasm.30c1dcb6d8bc080fb807.js",
+        "path_type": "hardlink",
+        "sha256": "30c1dcb6d8bc080fb8070e24a242325d6240de8099bb39484ffefdbe5068ccd9",
+        "sha256_in_prefix": "30c1dcb6d8bc080fb8070e24a242325d6240de8099bb39484ffefdbe5068ccd9",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mizar.7418c602ee73a1ce7ef9.js",
+        "path_type": "hardlink",
+        "sha256": "7418c602ee73a1ce7ef9134d68bc771657e6ede6de61ca81f5c87455ca9d9e3a",
+        "sha256_in_prefix": "7418c602ee73a1ce7ef9134d68bc771657e6ede6de61ca81f5c87455ca9d9e3a",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_mojolicious.88a069bf479ca183a5f8.js",
+        "path_type": "hardlink",
+        "sha256": "88a069bf479ca183a5f8d8860316b9b7a49fdd6d5fbc2cb7dc760fc6bb5f1531",
+        "sha256_in_prefix": "88a069bf479ca183a5f8d8860316b9b7a49fdd6d5fbc2cb7dc760fc6bb5f1531",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_monkey.13e0c36be0268743ece5.js",
+        "path_type": "hardlink",
+        "sha256": "13e0c36be0268743ece5ee5e493f8873ddcf1cf16da5bb08d2f4f842dccf6964",
+        "sha256_in_prefix": "13e0c36be0268743ece5ee5e493f8873ddcf1cf16da5bb08d2f4f842dccf6964",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_moonscript.7a32fdad8ff8a0179882.js",
+        "path_type": "hardlink",
+        "sha256": "7a32fdad8ff8a0179882b4efb17236ec229da21f09083d80bfe06ce3161f0248",
+        "sha256_in_prefix": "7a32fdad8ff8a0179882b4efb17236ec229da21f09083d80bfe06ce3161f0248",
+        "size_in_bytes": 1753
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_n1ql.e8e6a6b854ad7ccce8a3.js",
+        "path_type": "hardlink",
+        "sha256": "e8e6a6b854ad7ccce8a39310f2dded96d36fab75f7f8fee94efe16a8e63e83e0",
+        "sha256_in_prefix": "e8e6a6b854ad7ccce8a39310f2dded96d36fab75f7f8fee94efe16a8e63e83e0",
+        "size_in_bytes": 3053
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nginx.64202454269a59ab0768.js",
+        "path_type": "hardlink",
+        "sha256": "64202454269a59ab076851b8d23d6a9e904b993877781f86e372f97e6ff38077",
+        "sha256_in_prefix": "64202454269a59ab076851b8d23d6a9e904b993877781f86e372f97e6ff38077",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nim.afbc3024a9402ee862cb.js",
+        "path_type": "hardlink",
+        "sha256": "afbc3024a9402ee862cbfec62ef770e4e11c6a28795b8b88f361439dfe59fdf3",
+        "sha256_in_prefix": "afbc3024a9402ee862cbfec62ef770e4e11c6a28795b8b88f361439dfe59fdf3",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nix.e6758393526aa1fa65ff.js",
+        "path_type": "hardlink",
+        "sha256": "e6758393526aa1fa65ff1c0389091fe199222fbc6792b7b85303c7003630bb7a",
+        "sha256_in_prefix": "e6758393526aa1fa65ff1c0389091fe199222fbc6792b7b85303c7003630bb7a",
+        "size_in_bytes": 699
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nodeRepl.950164e10774a4383529.js",
+        "path_type": "hardlink",
+        "sha256": "950164e10774a4383529753aa3cbe74138c8d09d22dac82fb143beea0856f366",
+        "sha256_in_prefix": "950164e10774a4383529753aa3cbe74138c8d09d22dac82fb143beea0856f366",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_nsis.3ffd1d0260582bcf8d69.js",
+        "path_type": "hardlink",
+        "sha256": "3ffd1d0260582bcf8d69bdb66d21e9d37f1ba0b29e80cf48a300faea36d7ce4b",
+        "sha256_in_prefix": "3ffd1d0260582bcf8d69bdb66d21e9d37f1ba0b29e80cf48a300faea36d7ce4b",
+        "size_in_bytes": 5242
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_objectivec.1bb2c9ac3eec723c703f.js",
+        "path_type": "hardlink",
+        "sha256": "1bb2c9ac3eec723c703f48c1c20f9014ccee98d45dec3282ef55fc001655887e",
+        "sha256_in_prefix": "1bb2c9ac3eec723c703f48c1c20f9014ccee98d45dec3282ef55fc001655887e",
+        "size_in_bytes": 2593
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ocaml.3af24198e923ea284347.js",
+        "path_type": "hardlink",
+        "sha256": "3af24198e923ea284347d69abae96b6caa2e1c48a8411ce27a728700f5feeb83",
+        "sha256_in_prefix": "3af24198e923ea284347d69abae96b6caa2e1c48a8411ce27a728700f5feeb83",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_oneC.421ca90d9f921be16606.js",
+        "path_type": "hardlink",
+        "sha256": "421ca90d9f921be16606c48bde01c9b2e356903287af2eb28402cad994a41acc",
+        "sha256_in_prefix": "421ca90d9f921be16606c48bde01c9b2e356903287af2eb28402cad994a41acc",
+        "size_in_bytes": 55069
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_openscad.7f85ec0dec93fa681707.js",
+        "path_type": "hardlink",
+        "sha256": "7f85ec0dec93fa6817073493c779386dbdaf4c78393a795d01a72fb134490936",
+        "sha256_in_prefix": "7f85ec0dec93fa6817073493c779386dbdaf4c78393a795d01a72fb134490936",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_oxygene.d59686c79e170916a2e0.js",
+        "path_type": "hardlink",
+        "sha256": "d59686c79e170916a2e0e3403e67bf5566b849fa52e1abad0c3389bcf1682b30",
+        "sha256_in_prefix": "d59686c79e170916a2e0e3403e67bf5566b849fa52e1abad0c3389bcf1682b30",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_parser3.e5ef5bf469f9e2114c80.js",
+        "path_type": "hardlink",
+        "sha256": "e5ef5bf469f9e2114c80ac748350d6841f040fd5993e8add7fc12d6f45d22646",
+        "sha256_in_prefix": "e5ef5bf469f9e2114c80ac748350d6841f040fd5993e8add7fc12d6f45d22646",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_perl.6af8b222a239b447e8b0.js",
+        "path_type": "hardlink",
+        "sha256": "6af8b222a239b447e8b0ac80048c59d60282364d0c0224767cd60fabcaf67fdb",
+        "sha256_in_prefix": "6af8b222a239b447e8b0ac80048c59d60282364d0c0224767cd60fabcaf67fdb",
+        "size_in_bytes": 4462
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pf.9873a227b9f9b0eb69e4.js",
+        "path_type": "hardlink",
+        "sha256": "9873a227b9f9b0eb69e44c5e4d18154f42c02eafd8415bdea9c0ace8ed4ad522",
+        "sha256_in_prefix": "9873a227b9f9b0eb69e44c5e4d18154f42c02eafd8415bdea9c0ace8ed4ad522",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pgsql.c5545530bdb1e4ee281e.js",
+        "path_type": "hardlink",
+        "sha256": "c5545530bdb1e4ee281ecd49874aac4a5ee3b6e5162b471e7df449cf34dbb930",
+        "sha256_in_prefix": "c5545530bdb1e4ee281ecd49874aac4a5ee3b6e5162b471e7df449cf34dbb930",
+        "size_in_bytes": 18923
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_php.9c5890630fd2228be4cf.js",
+        "path_type": "hardlink",
+        "sha256": "9c5890630fd2228be4cfd0214f5c70593f3543635eeab214667985c5f45790f3",
+        "sha256_in_prefix": "9c5890630fd2228be4cfd0214f5c70593f3543635eeab214667985c5f45790f3",
+        "size_in_bytes": 4198
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_phpTemplate.0fe6908ce9b52579d43a.js",
+        "path_type": "hardlink",
+        "sha256": "0fe6908ce9b52579d43a8702f482707c9d648b01a61873b13937ce6ed5ea09f7",
+        "sha256_in_prefix": "0fe6908ce9b52579d43a8702f482707c9d648b01a61873b13937ce6ed5ea09f7",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_plaintext.214dda3b73ebab6810cd.js",
+        "path_type": "hardlink",
+        "sha256": "214dda3b73ebab6810cd0740bac6cc932476331e26134732dffd4ce1104f7c68",
+        "sha256_in_prefix": "214dda3b73ebab6810cd0740bac6cc932476331e26134732dffd4ce1104f7c68",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pony.d98852d4a6d0dbbdce3a.js",
+        "path_type": "hardlink",
+        "sha256": "d98852d4a6d0dbbdce3a335adce2a45d07b365be124237a8dd20928ef3668ff4",
+        "sha256_in_prefix": "d98852d4a6d0dbbdce3a335adce2a45d07b365be124237a8dd20928ef3668ff4",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_powershell.c76802f90173b9a57b2a.js",
+        "path_type": "hardlink",
+        "sha256": "c76802f90173b9a57b2a15831758994c44a161edaacce49514b740f7ca802f77",
+        "sha256_in_prefix": "c76802f90173b9a57b2a15831758994c44a161edaacce49514b740f7ca802f77",
+        "size_in_bytes": 4450
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_processing.64a3407806e1160c3900.js",
+        "path_type": "hardlink",
+        "sha256": "64a3407806e1160c3900d7bf158344e708e50353237111f7f34012bc08a9a606",
+        "sha256_in_prefix": "64a3407806e1160c3900d7bf158344e708e50353237111f7f34012bc08a9a606",
+        "size_in_bytes": 3178
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_profile.b03550be1dd80c155795.js",
+        "path_type": "hardlink",
+        "sha256": "b03550be1dd80c155795ed8a0be4b2a6cff1970e381fb7382d577a513d8f0d28",
+        "sha256_in_prefix": "b03550be1dd80c155795ed8a0be4b2a6cff1970e381fb7382d577a513d8f0d28",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_prolog.f6baebdc60c4efb75bc6.js",
+        "path_type": "hardlink",
+        "sha256": "f6baebdc60c4efb75bc6147ff8d1549111f6c103c77282170634c3779fcd994b",
+        "sha256_in_prefix": "f6baebdc60c4efb75bc6147ff8d1549111f6c103c77282170634c3779fcd994b",
+        "size_in_bytes": 734
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_properties.758dd8a4c90054169b00.js",
+        "path_type": "hardlink",
+        "sha256": "758dd8a4c90054169b00b762a969e314386649748d74673c3caa3f819e4c2368",
+        "sha256_in_prefix": "758dd8a4c90054169b00b762a969e314386649748d74673c3caa3f819e4c2368",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_protobuf.2b796344a3f6dfddb05b.js",
+        "path_type": "hardlink",
+        "sha256": "2b796344a3f6dfddb05ba0232ce57bbd103be34a869b0c669190f1ad9c5372e7",
+        "sha256_in_prefix": "2b796344a3f6dfddb05ba0232ce57bbd103be34a869b0c669190f1ad9c5372e7",
+        "size_in_bytes": 750
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_puppet.276f5d23ee79e1b9eb1d.js",
+        "path_type": "hardlink",
+        "sha256": "276f5d23ee79e1b9eb1df1eca8d8f484a410c99137eaa16577580b0946c130a6",
+        "sha256_in_prefix": "276f5d23ee79e1b9eb1df1eca8d8f484a410c99137eaa16577580b0946c130a6",
+        "size_in_bytes": 4144
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_purebasic.9ae41013e43342a1ace6.js",
+        "path_type": "hardlink",
+        "sha256": "9ae41013e43342a1ace60874f886d872cf38024813de516f7f3be013cc5e2e15",
+        "sha256_in_prefix": "9ae41013e43342a1ace60874f886d872cf38024813de516f7f3be013cc5e2e15",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_python.398414f40b936f194b03.js",
+        "path_type": "hardlink",
+        "sha256": "398414f40b936f194b03a40b187539c65a36be35e2578afe2f1a39910d090376",
+        "sha256_in_prefix": "398414f40b936f194b03a40b187539c65a36be35e2578afe2f1a39910d090376",
+        "size_in_bytes": 3425
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_pythonRepl.cf14677ae83f4aabef1d.js",
+        "path_type": "hardlink",
+        "sha256": "cf14677ae83f4aabef1db95971dea8e5739ebe6c60a7f91a2726199aa614520b",
+        "sha256_in_prefix": "cf14677ae83f4aabef1db95971dea8e5739ebe6c60a7f91a2726199aa614520b",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_q.eea8298f8d0708678dd8.js",
+        "path_type": "hardlink",
+        "sha256": "eea8298f8d0708678dd8a9ef8ae48843a1d4e7ec754f145afe20e30a4bab79dd",
+        "sha256_in_prefix": "eea8298f8d0708678dd8a9ef8ae48843a1d4e7ec754f145afe20e30a4bab79dd",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_qml.1e2f9d42469c62bec2e1.js",
+        "path_type": "hardlink",
+        "sha256": "1e2f9d42469c62bec2e1f5f82bbb4dbb1a107ca74faf2badb671f4a67233c8ee",
+        "sha256_in_prefix": "1e2f9d42469c62bec2e1f5f82bbb4dbb1a107ca74faf2badb671f4a67233c8ee",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_r.f5eacb745071c1bcb4a4.js",
+        "path_type": "hardlink",
+        "sha256": "f5eacb745071c1bcb4a491952af474ae489998baf84f47c1adec4d0d3badd4fb",
+        "sha256_in_prefix": "f5eacb745071c1bcb4a491952af474ae489998baf84f47c1adec4d0d3badd4fb",
+        "size_in_bytes": 3141
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_reasonml.2b253817f1b54d65ab2a.js",
+        "path_type": "hardlink",
+        "sha256": "2b253817f1b54d65ab2a206eb8c77066b4ea937c328bc9052cd77c2077c919d8",
+        "sha256_in_prefix": "2b253817f1b54d65ab2a206eb8c77066b4ea937c328bc9052cd77c2077c919d8",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_rib.da859d2a303567aa7097.js",
+        "path_type": "hardlink",
+        "sha256": "da859d2a303567aa70974773de53b1abd4614fd878bf68c0c84beffc160aa030",
+        "sha256_in_prefix": "da859d2a303567aa70974773de53b1abd4614fd878bf68c0c84beffc160aa030",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_roboconf.4df8dceacf2f5c376b7b.js",
+        "path_type": "hardlink",
+        "sha256": "4df8dceacf2f5c376b7b34bcd0025da56e29fd38373c0eae084ca28cfc6a6e87",
+        "sha256_in_prefix": "4df8dceacf2f5c376b7b34bcd0025da56e29fd38373c0eae084ca28cfc6a6e87",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_routeros.d9726608684318d383b6.js",
+        "path_type": "hardlink",
+        "sha256": "d9726608684318d383b61ad2d9b831971ca9fcf6cd81ad41948322e0364b455e",
+        "sha256_in_prefix": "d9726608684318d383b61ad2d9b831971ca9fcf6cd81ad41948322e0364b455e",
+        "size_in_bytes": 2573
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_rsl.36850d002ba1a785343c.js",
+        "path_type": "hardlink",
+        "sha256": "36850d002ba1a785343c6c34eda438f1f29169fbc4af323aace967af5890155f",
+        "sha256_in_prefix": "36850d002ba1a785343c6c34eda438f1f29169fbc4af323aace967af5890155f",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ruby.e84e3fef0a8726a40e1f.js",
+        "path_type": "hardlink",
+        "sha256": "e84e3fef0a8726a40e1fa04daa2985e6d01145a67017ccf7238c119a0f349e88",
+        "sha256_in_prefix": "e84e3fef0a8726a40e1fa04daa2985e6d01145a67017ccf7238c119a0f349e88",
+        "size_in_bytes": 3532
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_ruleslanguage.34eb3d1cfb5ae7caafab.js",
+        "path_type": "hardlink",
+        "sha256": "34eb3d1cfb5ae7caafabcece94dbab985659079755a1779e5ff9b3ef81d4c162",
+        "sha256_in_prefix": "34eb3d1cfb5ae7caafabcece94dbab985659079755a1779e5ff9b3ef81d4c162",
+        "size_in_bytes": 3899
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_rust.549bd3bf16247d0c37f6.js",
+        "path_type": "hardlink",
+        "sha256": "549bd3bf16247d0c37f6c99de7cc1aad606169fe3b9dc7c64ea97a29aec8ceca",
+        "sha256_in_prefix": "549bd3bf16247d0c37f6c99de7cc1aad606169fe3b9dc7c64ea97a29aec8ceca",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sas.381f32b6e49a9384bf83.js",
+        "path_type": "hardlink",
+        "sha256": "381f32b6e49a9384bf83ed996d4f9dbc9f10519e2ba5e6915216fd68c7d822fc",
+        "sha256_in_prefix": "381f32b6e49a9384bf83ed996d4f9dbc9f10519e2ba5e6915216fd68c7d822fc",
+        "size_in_bytes": 3704
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scala.714be87da4b738cf46ee.js",
+        "path_type": "hardlink",
+        "sha256": "714be87da4b738cf46ee1189b7401aef40cbac08f94e550eb8f2e8e6f95935ad",
+        "sha256_in_prefix": "714be87da4b738cf46ee1189b7401aef40cbac08f94e550eb8f2e8e6f95935ad",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scheme.9283f78ae5f6b846af0c.js",
+        "path_type": "hardlink",
+        "sha256": "9283f78ae5f6b846af0c22bbe7e8aadfd23b138740de30769960599f296c7522",
+        "sha256_in_prefix": "9283f78ae5f6b846af0c22bbe7e8aadfd23b138740de30769960599f296c7522",
+        "size_in_bytes": 3323
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scilab.4ca62ad3b9c5a02e903a.js",
+        "path_type": "hardlink",
+        "sha256": "4ca62ad3b9c5a02e903a50eafa5e69d8647dda974d19d894e0583964b0e97765",
+        "sha256_in_prefix": "4ca62ad3b9c5a02e903a50eafa5e69d8647dda974d19d894e0583964b0e97765",
+        "size_in_bytes": 1264
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_scss.8010996cc248e413d31a.js",
+        "path_type": "hardlink",
+        "sha256": "8010996cc248e413d31ac04baffa2ac4ead8dc38e6348d63aeb798034ec95ecc",
+        "sha256_in_prefix": "8010996cc248e413d31ac04baffa2ac4ead8dc38e6348d63aeb798034ec95ecc",
+        "size_in_bytes": 7729
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_shell.acc48390f58cd25069ec.js",
+        "path_type": "hardlink",
+        "sha256": "acc48390f58cd25069ec6b78d6cb24ee2d168a201b76a3b13d84ca6d004ab02e",
+        "sha256_in_prefix": "acc48390f58cd25069ec6b78d6cb24ee2d168a201b76a3b13d84ca6d004ab02e",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_smali.72663c30978046986f88.js",
+        "path_type": "hardlink",
+        "sha256": "72663c30978046986f8847eeceabe9fc7da8309f6220bf70fa9fe15999ebd8a0",
+        "sha256_in_prefix": "72663c30978046986f8847eeceabe9fc7da8309f6220bf70fa9fe15999ebd8a0",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_smalltalk.c6849e9c3b083d99b9cd.js",
+        "path_type": "hardlink",
+        "sha256": "c6849e9c3b083d99b9cdc329caed002aa4595f497910a13d45d0e0065a5d1d8f",
+        "sha256_in_prefix": "c6849e9c3b083d99b9cdc329caed002aa4595f497910a13d45d0e0065a5d1d8f",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sml.2c1c83128ee70491c17a.js",
+        "path_type": "hardlink",
+        "sha256": "2c1c83128ee70491c17a2c1f53ff082c6715c61ccbb9aadbaa648cf978a39bee",
+        "sha256_in_prefix": "2c1c83128ee70491c17a2c1f53ff082c6715c61ccbb9aadbaa648cf978a39bee",
+        "size_in_bytes": 1205
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sqf.8ce909e0cebe516d8441.js",
+        "path_type": "hardlink",
+        "sha256": "8ce909e0cebe516d84410571f275c023d0e4fd1557356c4afcd3ac8aab87c853",
+        "sha256_in_prefix": "8ce909e0cebe516d84410571f275c023d0e4fd1557356c4afcd3ac8aab87c853",
+        "size_in_bytes": 32278
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sql.b25ee9e856bc5bd44133.js",
+        "path_type": "hardlink",
+        "sha256": "b25ee9e856bc5bd4413325db1d05565cf7c26f956e286be0996c6b4ae97b3775",
+        "sha256_in_prefix": "b25ee9e856bc5bd4413325db1d05565cf7c26f956e286be0996c6b4ae97b3775",
+        "size_in_bytes": 6620
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_sqlMore.0347eb7b0ccced36c641.js",
+        "path_type": "hardlink",
+        "sha256": "0347eb7b0ccced36c641b65ab9591cee3acbd66d454cfc8fd0662920b62976f1",
+        "sha256_in_prefix": "0347eb7b0ccced36c641b65ab9591cee3acbd66d454cfc8fd0662920b62976f1",
+        "size_in_bytes": 12325
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_stan.47ee467814a7b68929b2.js",
+        "path_type": "hardlink",
+        "sha256": "47ee467814a7b68929b24e5fcceb38a1db3bc1bcfcec05f3be49bd4f35d82297",
+        "sha256_in_prefix": "47ee467814a7b68929b24e5fcceb38a1db3bc1bcfcec05f3be49bd4f35d82297",
+        "size_in_bytes": 7476
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_stata.7c75244f6225ffbc2001.js",
+        "path_type": "hardlink",
+        "sha256": "7c75244f6225ffbc2001285aee29801c135595190f2d6adfe52cc4eddd351b50",
+        "sha256_in_prefix": "7c75244f6225ffbc2001285aee29801c135595190f2d6adfe52cc4eddd351b50",
+        "size_in_bytes": 16769
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_step21.129f4437a51abd9b409c.js",
+        "path_type": "hardlink",
+        "sha256": "129f4437a51abd9b409c3c0cf93801773de372f5b0acb68d5ef3ef9d27aa3f85",
+        "sha256_in_prefix": "129f4437a51abd9b409c3c0cf93801773de372f5b0acb68d5ef3ef9d27aa3f85",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_stylus.e7e1aaa3c81d240b9ceb.js",
+        "path_type": "hardlink",
+        "sha256": "e7e1aaa3c81d240b9cebb4f2aac09fee43e052d54595c82401838dff632341bb",
+        "sha256_in_prefix": "e7e1aaa3c81d240b9cebb4f2aac09fee43e052d54595c82401838dff632341bb",
+        "size_in_bytes": 7059
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_subunit.42bf80a7347a922fdcd4.js",
+        "path_type": "hardlink",
+        "sha256": "42bf80a7347a922fdcd4a46f06e92ea3ef2b4757e60c1bd46178d0a24c504edb",
+        "sha256_in_prefix": "42bf80a7347a922fdcd4a46f06e92ea3ef2b4757e60c1bd46178d0a24c504edb",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_swift.706813efbb244ef47358.js",
+        "path_type": "hardlink",
+        "sha256": "706813efbb244ef473589745a33851149fc9397965b1b97ea7e63b10b7f1ef3c",
+        "sha256_in_prefix": "706813efbb244ef473589745a33851149fc9397965b1b97ea7e63b10b7f1ef3c",
+        "size_in_bytes": 7483
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_taggerscript.67bf9e5362c2f7e4de73.js",
+        "path_type": "hardlink",
+        "sha256": "67bf9e5362c2f7e4de7353ed0a2901beb711e02dfb5a743bce320bf702678fd9",
+        "sha256_in_prefix": "67bf9e5362c2f7e4de7353ed0a2901beb711e02dfb5a743bce320bf702678fd9",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_tap.1cbac08112e220653246.js",
+        "path_type": "hardlink",
+        "sha256": "1cbac08112e220653246a10fc508f205cbdfca6676ca061e65d5d3430f09c6ee",
+        "sha256_in_prefix": "1cbac08112e220653246a10fc508f205cbdfca6676ca061e65d5d3430f09c6ee",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_tcl.55b087841afa519660fc.js",
+        "path_type": "hardlink",
+        "sha256": "55b087841afa519660fc07dade7d22e9486f5f659765f5a0cfe3ec032fed1b22",
+        "sha256_in_prefix": "55b087841afa519660fc07dade7d22e9486f5f659765f5a0cfe3ec032fed1b22",
+        "size_in_bytes": 1843
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_thrift.21bd2b4f7193f000ebfc.js",
+        "path_type": "hardlink",
+        "sha256": "21bd2b4f7193f000ebfc2f4f1b73f8ab63f707b2c4aad05c9b30b03cb1121e49",
+        "sha256_in_prefix": "21bd2b4f7193f000ebfc2f4f1b73f8ab63f707b2c4aad05c9b30b03cb1121e49",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_tp.6333561715250dd896ea.js",
+        "path_type": "hardlink",
+        "sha256": "6333561715250dd896ea346778676b36374227bd3ce64d0335f100cebf0eddc7",
+        "sha256_in_prefix": "6333561715250dd896ea346778676b36374227bd3ce64d0335f100cebf0eddc7",
+        "size_in_bytes": 1521
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_twig.e47feba2152af16dd9db.js",
+        "path_type": "hardlink",
+        "sha256": "e47feba2152af16dd9db51bbad4c9ab0ff21816fe3068786519388c42a53147a",
+        "sha256_in_prefix": "e47feba2152af16dd9db51bbad4c9ab0ff21816fe3068786519388c42a53147a",
+        "size_in_bytes": 1231
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_typescript.247133312561d0079e11.js",
+        "path_type": "hardlink",
+        "sha256": "247133312561d0079e115a13ff6822268a6250a1ce537ca45c5155a68d252b40",
+        "sha256_in_prefix": "247133312561d0079e115a13ff6822268a6250a1ce537ca45c5155a68d252b40",
+        "size_in_bytes": 6181
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vala.923310041621218f4041.js",
+        "path_type": "hardlink",
+        "sha256": "923310041621218f4041c610079fa739ca3003d659cdb0baa79c5f63d5f73431",
+        "sha256_in_prefix": "923310041621218f4041c610079fa739ca3003d659cdb0baa79c5f63d5f73431",
+        "size_in_bytes": 986
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vbnet.59e8bddbb74860d2b980.js",
+        "path_type": "hardlink",
+        "sha256": "59e8bddbb74860d2b980c0afa6f638eb5cd69c0e65027c4618d2883b71c55343",
+        "sha256_in_prefix": "59e8bddbb74860d2b980c0afa6f638eb5cd69c0e65027c4618d2883b71c55343",
+        "size_in_bytes": 2802
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vbscript.036da60f5c8aac09cb93.js",
+        "path_type": "hardlink",
+        "sha256": "036da60f5c8aac09cb93c2810ccd0c73aefd678ff8261e3dbe65ecfabb8dcecd",
+        "sha256_in_prefix": "036da60f5c8aac09cb93c2810ccd0c73aefd678ff8261e3dbe65ecfabb8dcecd",
+        "size_in_bytes": 1755
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vbscriptHtml.727187daa8c9a00917e0.js",
+        "path_type": "hardlink",
+        "sha256": "727187daa8c9a00917e07da1b5676202e8b10979ca71f0073ea1d55d54a4c9db",
+        "sha256_in_prefix": "727187daa8c9a00917e07da1b5676202e8b10979ca71f0073ea1d55d54a4c9db",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_verilog.ae6c2755be121b8df214.js",
+        "path_type": "hardlink",
+        "sha256": "ae6c2755be121b8df214e44b2a695a6d2dc984d51ade27c3870b0c30db5c868d",
+        "sha256_in_prefix": "ae6c2755be121b8df214e44b2a695a6d2dc984d51ade27c3870b0c30db5c868d",
+        "size_in_bytes": 4931
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vhdl.2a1a38e48cc12410dd17.js",
+        "path_type": "hardlink",
+        "sha256": "2a1a38e48cc12410dd173cb89210eecd7ae8e1f6d55a5c3fd3022115bf4c053e",
+        "sha256_in_prefix": "2a1a38e48cc12410dd173cb89210eecd7ae8e1f6d55a5c3fd3022115bf4c053e",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_vim.5701c37f1a572cf3c0af.js",
+        "path_type": "hardlink",
+        "sha256": "5701c37f1a572cf3c0af51eb07f5831f9f8a9d555ca78343e063e5a5451508f4",
+        "sha256_in_prefix": "5701c37f1a572cf3c0af51eb07f5831f9f8a9d555ca78343e063e5a5451508f4",
+        "size_in_bytes": 8655
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_x86asm.8cbf14c7f6f9a60b82d1.js",
+        "path_type": "hardlink",
+        "sha256": "8cbf14c7f6f9a60b82d13ed284c41b6949dcd804d736ecebf7d00011e97fe8ab",
+        "sha256_in_prefix": "8cbf14c7f6f9a60b82d13ed284c41b6949dcd804d736ecebf7d00011e97fe8ab",
+        "size_in_bytes": 19094
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_xl.30fd857ca961ea9e3da9.js",
+        "path_type": "hardlink",
+        "sha256": "30fd857ca961ea9e3da9b91e785327a8edd82dafebaecef093a3c6768ec746b3",
+        "sha256_in_prefix": "30fd857ca961ea9e3da9b91e785327a8edd82dafebaecef093a3c6768ec746b3",
+        "size_in_bytes": 1688
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_xml.43bf0ad766ebbab9e9c3.js",
+        "path_type": "hardlink",
+        "sha256": "43bf0ad766ebbab9e9c36c0bb9e4309756c32d8035732de56dc6ff068519c255",
+        "sha256_in_prefix": "43bf0ad766ebbab9e9c36c0bb9e4309756c32d8035732de56dc6ff068519c255",
+        "size_in_bytes": 2050
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_xquery.92312538ab4d1c10d0e0.js",
+        "path_type": "hardlink",
+        "sha256": "92312538ab4d1c10d0e039c334d0a1e550349e767b2f51c41970c5cf0baa2c2b",
+        "sha256_in_prefix": "92312538ab4d1c10d0e039c334d0a1e550349e767b2f51c41970c5cf0baa2c2b",
+        "size_in_bytes": 5303
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_yaml.1189f493543ad51b5f7b.js",
+        "path_type": "hardlink",
+        "sha256": "1189f493543ad51b5f7b61c9f676795f44cdd95899bf7c0d55a815a5d4fa9229",
+        "sha256_in_prefix": "1189f493543ad51b5f7b61c9f676795f44cdd95899bf7c0d55a815a5d4fa9229",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/react-syntax-highlighter_languages_highlight_zephir.a92c45a2237c4c0feb0f.js",
+        "path_type": "hardlink",
+        "sha256": "a92c45a2237c4c0feb0fb3b0fdefec74ed01dbfa4aabe03c65a7bff86bf95372",
+        "sha256_in_prefix": "a92c45a2237c4c0feb0fb3b0fdefec74ed01dbfa4aabe03c65a7bff86bf95372",
+        "size_in_bytes": 1644
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/remoteEntry.37de765466b6d480035c.js",
+        "path_type": "hardlink",
+        "sha256": "37de765466b6d480035c18e2b5a229caf2d23d764b82bf19c17c39a0230f648f",
+        "sha256_in_prefix": "37de765466b6d480035c18e2b5a229caf2d23d764b82bf19c17c39a0230f648f",
+        "size_in_bytes": 36302
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "e54d03774c548226742db02556a468ed5927d8de9e768c178c7cd9562688769f",
+        "sha256_in_prefix": "e54d03774c548226742db02556a468ed5927d8de9e768c178c7cd9562688769f",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "share/jupyter/labextensions/jupyterlab-myst/static/third-party-licenses.json",
+        "path_type": "hardlink",
+        "sha256": "e1b7ad9dd1d29154383d6622aee1d83e31416b326ed45c16581c89a930b2c729",
+        "sha256_in_prefix": "e1b7ad9dd1d29154383d6622aee1d83e31416b326ed45c16581c89a930b2c729",
+        "size_in_bytes": 211085
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "edc83e637faa28eeb425cba8e1119a29624a2d4dffd1c2e02c65c8d2297e6282",
+        "sha256_in_prefix": "edc83e637faa28eeb425cba8e1119a29624a2d4dffd1c2e02c65c8d2297e6282",
+        "size_in_bytes": 11196
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0a325093b933b2858b5bc36f8cd8b50ccd1a2fa7c3f7304b0e72a70ff5cf35d2",
+        "sha256_in_prefix": "0a325093b933b2858b5bc36f8cd8b50ccd1a2fa7c3f7304b0e72a70ff5cf35d2",
+        "size_in_bytes": 54588
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cc431c46bf4aaf4df1d68cc6c20e6ff4d4012a7de49dda7a2d2a1295583e8e15",
+        "sha256_in_prefix": "cc431c46bf4aaf4df1d68cc6c20e6ff4d4012a7de49dda7a2d2a1295583e8e15",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9bf2f241419127d1477a07ec0b01134323c64fb0332ff270430dd495cde9b03a",
+        "sha256_in_prefix": "9bf2f241419127d1477a07ec0b01134323c64fb0332ff270430dd495cde9b03a",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst-2.4.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "dad61e6c1028ee0bb14eee9e25e4ace04fd80882b1a1a9d136141942acacca90",
+        "sha256_in_prefix": "dad61e6c1028ee0bb14eee9e25e4ace04fd80882b1a1a9d136141942acacca90",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9aedc0c98a153d334b8d763838d12754b0f70c9edf29b8db510b5a2ff102c5c",
+        "sha256_in_prefix": "e9aedc0c98a153d334b8d763838d12754b0f70c9edf29b8db510b5a2ff102c5c",
+        "size_in_bytes": 829
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst/_version.py",
+        "path_type": "hardlink",
+        "sha256": "889e68083023733320a44443b76fc0341b385189c72ea75a60b442b4e86ad41a",
+        "sha256_in_prefix": "889e68083023733320a44443b76fc0341b385189c72ea75a60b442b4e86ad41a",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst/notary.py",
+        "path_type": "hardlink",
+        "sha256": "f440f93023dc213f53e167b709f27994d7669195133af3f5de977b5b13678cff",
+        "sha256_in_prefix": "f440f93023dc213f53e167b709f27994d7669195133af3f5de977b5b13678cff",
+        "size_in_bytes": 2848
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_myst/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa20942d8484f7d3192a4e07d1f91d4a494cc383a926f7ec45d3bd062b7fa5ed",
+        "sha256_in_prefix": "aa20942d8484f7d3192a4e07d1f91d4a494cc383a926f7ec45d3bd062b7fa5ed",
+        "size_in_bytes": 45
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/runner/.cache/rattler/cache/pkgs/jupyterlab-myst-2.4.2-pyhd8ed1ab_0",
+    "type": 1
+  }
+}
