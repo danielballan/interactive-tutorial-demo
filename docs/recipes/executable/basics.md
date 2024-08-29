@@ -27,6 +27,10 @@ a = 8**2
 a
 ```
 
+```{code-cell} ipython3
+div = 8/2
+```
+
 This cell has an excepted error:
 
 ```{code-cell} ipython3
